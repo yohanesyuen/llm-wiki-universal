@@ -14,6 +14,8 @@
 ## [2026-06-27] ingest | Sign Off as Claude When Filing Externally
 ## [2026-06-27] ingest | No Confidential Information in Code or Git History
 
+## [2026-06-27] ingest | Named Size in a Spec Means Example, Not Constraint
+
 ## [2026-06-27] init | Wiki initialized
 - Created raw/ and wiki/ directories
 - Created wiki/index.md and wiki/log.md
