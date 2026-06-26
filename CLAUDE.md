@@ -4,4 +4,4 @@ Universal knowledge base. Sources live in `raw/`; compiled articles live in `wik
 
 - `wiki/index.md` — global article index
 - `wiki/log.md` — append-only operation log
-- Follow the karpathy-llm-wiki skill for all ingest, query, and lint operations.
+- Ingest via scripts; do not invoke karpathy-llm-wiki skill (disabled).
