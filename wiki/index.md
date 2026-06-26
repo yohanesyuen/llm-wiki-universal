@@ -6,6 +6,7 @@ Session retrospectives compiled into reusable process insights.
 | Article | Summary | Updated |
 |---|---|---|
 | [Wiki Ingest and Cleanup Discipline](lessons-learned/wiki-ingest-and-cleanup-discipline.md) | One concept per article regardless of source; clean up content not config; check for self-referential staleness | 2026-06-27 |
+| [Public Repo Setup Discipline](lessons-learned/public-repo-setup-discipline.md) | Ordered checklist before `gh repo create --public`: confirm target, write .gitignore, grep for confidential info | 2026-06-27 |
 
 ## conventions
 Operating rules and confidentiality requirements.

@@ -1,5 +1,7 @@
 # Wiki Log
 
+## [2026-06-27] ingest | Public Repo Setup Discipline
+
 ## [2026-06-27] ingest | Wiki Ingest and Cleanup Discipline
 ## [2026-06-27] ingest | Grep Docs for Stale References After Any Removal Commit
 ## [2026-06-27] ingest | Targeted Grep Over Reading Full Sibling Files
