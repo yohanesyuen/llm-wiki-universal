@@ -3,9 +3,6 @@
 For each raw .md file not yet referenced by any wiki article, asks the model to
 compile it into the appropriate wiki article (create or merge), then writes the
 article, updates wiki/index.md, and appends to wiki/log.md.
-
-Thinking is automatically disabled when the job count exceeds --thinking-threshold
-(default: 5) to keep bulk ingestion fast. Pass --force-thinking to override.
 """
 import argparse
 import functools
@@ -22,7 +19,6 @@ RAW_DIR = SCRIPT_DIR / "raw"
 WIKI_DIR = SCRIPT_DIR / "wiki"
 
 MODEL_REPO = "mlx-community/Qwen3.5-9B-OptiQ-4bit"
-THINKING_THRESHOLD = 5
 CHARS_PER_TOKEN = 4
 MAX_CONTENT_TOKENS = 10_000
 
@@ -243,13 +239,13 @@ _THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL)
 
 
 @log_calls
-def call_model(model, tokenizer, system_prompt, stream=False, thinking=False):
+def call_model(model, tokenizer, system_prompt, stream=False):
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": "Compile the wiki article JSON for this raw file."},
     ]
     prompt = tokenizer.apply_chat_template(
-        messages, add_generation_prompt=True, enable_thinking=thinking
+        messages, add_generation_prompt=True, enable_thinking=False
     )
     if stream:
         chunks = []
@@ -346,7 +342,7 @@ def append_log(article_title, cascade_titles=()):
 # ---------------------------------------------------------------------------
 
 @log_calls
-def process_raw_file(topic, raw_path, model, tokenizer, stream=False, thinking=False):
+def process_raw_file(topic, raw_path, model, tokenizer, stream=False):
     raw_content = raw_path.read_text()
     if estimate_tokens(raw_content) > MAX_CONTENT_TOKENS:
         logger.warning(f"[{topic}] {raw_path.name}: over token budget, truncating")
@@ -367,7 +363,7 @@ def process_raw_file(topic, raw_path, model, tokenizer, stream=False, thinking=F
     system_prompt = build_system_prompt(
         topic, raw_path, raw_content, included_paths, included_markdown
     )
-    article = call_model(model, tokenizer, system_prompt, stream=stream, thinking=thinking)
+    article = call_model(model, tokenizer, system_prompt, stream=stream)
 
     topic_dir = WIKI_DIR / topic
     topic_dir.mkdir(parents=True, exist_ok=True)
@@ -407,13 +403,6 @@ def main():
                         help="process only these topic subdirectories (default: all)")
     parser.add_argument("--stream", action="store_true",
                         help="stream model output to stdout")
-    parser.add_argument("--thinking", action="store_true",
-                        help="enable model thinking (auto-disabled when job count > threshold)")
-    parser.add_argument("--force-thinking", action="store_true",
-                        help="keep thinking on regardless of job count")
-    parser.add_argument("--thinking-threshold", type=int, default=THINKING_THRESHOLD,
-                        metavar="N",
-                        help=f"disable thinking when job count > N (default: {THINKING_THRESHOLD})")
     parser.add_argument("--dry-run", action="store_true",
                         help="list pending jobs and exit without calling the model")
     args = parser.parse_args()
@@ -431,23 +420,12 @@ def main():
     if args.dry_run:
         return
 
-    thinking = args.thinking
-    if thinking and not args.force_thinking and len(jobs) > args.thinking_threshold:
-        print(
-            f"\nJob count ({len(jobs)}) > threshold ({args.thinking_threshold}): "
-            f"disabling thinking for this run. Use --force-thinking to override."
-        )
-        thinking = False
-
     model, tokenizer = load(MODEL_REPO)
 
     all_flags = []
     for topic, raw_path in jobs:
         try:
-            flags = process_raw_file(
-                topic, raw_path, model, tokenizer,
-                stream=args.stream, thinking=thinking,
-            )
+            flags = process_raw_file(topic, raw_path, model, tokenizer, stream=args.stream)
             all_flags.extend(flags)
         except Exception:
             logger.exception(f"failed to process {raw_path}")
