@@ -5,9 +5,14 @@ Session retrospectives compiled into reusable process insights.
 
 | Article | Summary | Updated |
 |---|---|---|
+| [Session Tool Efficiency](lessons-learned/session-tool-efficiency.md) | File state is tracked per session — skip redundant Reads; use Write for full rewrites, Edit for targeted changes | 2026-06-28 |
+| [MCP Permissions and Allow List Hygiene](lessons-learned/mcp-permissions-and-allow-list-hygiene.md) | MCP rules use no parentheses; allow lists accumulate noise; two-pass cleanup (redundant globs, then one-timers) | 2026-06-28 |
+| [Name the Capability Gap Before Evaluating New Infrastructure](lessons-learned/capability-gap-before-infrastructure-eval.md) | Check which client surfaces actually need the new infra before recommending it; rank fixes cheapest-to-heaviest; verify the asset's real shape first | 2026-06-28 |
+| [Pre-Flight Checks Before Building](lessons-learned/preflight-checks-before-building.md) | Check ESM/CJS exports map before choosing output format; grep model config.json before loading with native binding; complete tool setup before invoking | 2026-06-28 |
+| [LLM Script Discipline in Sessions](lessons-learned/llm-script-discipline.md) | Don't run local LLM inference in-session — too slow and verbose; surface stack pivot options after two dead ends | 2026-06-28 |
 | [Wiki Ingest and Cleanup Discipline](lessons-learned/wiki-ingest-and-cleanup-discipline.md) | One concept per article regardless of source; clean up content not config; check for self-referential staleness | 2026-06-27 |
 | [Named Size in a Spec Means Example, Not Constraint](lessons-learned/named-size-means-example-not-constraint.md) | Treat specific sizes ("2x2", "3-tier") as illustrative, not fixed; ask before implementing; keep thin wrappers for backward compat | 2026-06-27 |
-| [Public Repo Setup Discipline](lessons-learned/public-repo-setup-discipline.md) | Ordered checklist before `gh repo create --public`: confirm target, write .gitignore, grep for confidential info | 2026-06-27 |
+| [Public Repo Setup Discipline](lessons-learned/public-repo-setup-discipline.md) | Ordered checklist before `gh repo create --public`: confirm target, write .gitignore, grep for confidential info; add uppercase disclaimer for AI-generated content | 2026-06-28 |
 
 ## conventions
 Operating rules and confidentiality requirements.

@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-06-28] ingest | Session Tool Efficiency
+## [2026-06-28] update | Public Repo Setup Discipline — added uppercase disclaimer pattern
+
+## [2026-06-28] ingest | Pre-Flight Checks Before Building
+## [2026-06-28] ingest | LLM Script Discipline in Sessions
+
+## [2026-06-28] ingest | MCP Permissions and Allow List Hygiene
+## [2026-06-28] ingest | Name the Capability Gap Before Evaluating New Infrastructure
+
 ## [2026-06-27] ingest | Public Repo Setup Discipline
 
 ## [2026-06-27] ingest | Wiki Ingest and Cleanup Discipline

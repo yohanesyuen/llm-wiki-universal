@@ -29,6 +29,16 @@ For any new public repo:
 3. `grep -r` for confidential info
 4. `git add`, commit, `gh repo create --public --source=. --remote=origin --push`
 
+## Add an uppercase disclaimer to the README for non-obvious content
+
+If the repo contains AI-generated, auto-sanitized, or otherwise non-standard content, add a short uppercase disclaimer near the top of the README. The register shift signals importance and sets expectations before the reader gets into the body. Place it after the intro paragraph but before the structure/usage sections.
+
+Example:
+
+> DISCLAIMER: ALL CONTENT IN THIS REPO IS GENERATED AND SANITIZED BEFORE PUBLICATION. USE AT YOUR OWN DISCRETION.
+
+The uppercase reads differently from a prose note — readers who scan READMEs are more likely to catch it.
+
 ## One-liner to create and push
 
 ```bash
