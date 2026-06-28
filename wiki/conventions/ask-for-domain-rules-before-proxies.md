@@ -1,7 +1,7 @@
 ---
 Title: Ask for Domain Rules Before Deriving Proxies
 Sources: session-reflection, 2026-06-25
-Raw: [../../raw/conventions/ask-for-domain-rules-before-proxies.md](../../raw/conventions/ask-for-domain-rules-before-proxies.md)
+Raw: "[../../raw/conventions/ask-for-domain-rules-before-proxies.md](../../raw/conventions/ask-for-domain-rules-before-proxies.md)"
 Updated: 2026-06-27
 ---
 

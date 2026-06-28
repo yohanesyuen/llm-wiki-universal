@@ -1,7 +1,7 @@
 ---
 Title: Numbered Lists for Referenceable Items
 Sources: session-reflection, 2026-06-25
-Raw: [../../raw/conventions/numbered-lists-for-referenceable-items.md](../../raw/conventions/numbered-lists-for-referenceable-items.md)
+Raw: "[../../raw/conventions/numbered-lists-for-referenceable-items.md](../../raw/conventions/numbered-lists-for-referenceable-items.md)"
 Updated: 2026-06-27
 ---
 

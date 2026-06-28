@@ -1,7 +1,7 @@
 ---
 Title: Public Repo Setup Discipline
 Sources: Session reflection, 2026-06-27
-Raw: [../../raw/lessons-learned/2026-06-27-public-repo-setup.md](../../raw/lessons-learned/2026-06-27-public-repo-setup.md)
+Raw: "[../../raw/lessons-learned/2026-06-27-public-repo-setup.md](../../raw/lessons-learned/2026-06-27-public-repo-setup.md)"
 Updated: 2026-06-27
 ---
 

@@ -1,7 +1,7 @@
 ---
 Title: Smoke-Test the Parts You Can
 Sources: session-reflection, 2026-06-25
-Raw: [../../raw/conventions/smoke-test-parts-you-can.md](../../raw/conventions/smoke-test-parts-you-can.md)
+Raw: "[../../raw/conventions/smoke-test-parts-you-can.md](../../raw/conventions/smoke-test-parts-you-can.md)"
 Updated: 2026-06-27
 ---
 

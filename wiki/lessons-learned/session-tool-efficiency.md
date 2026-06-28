@@ -1,7 +1,7 @@
 ---
 Title: Session Tool Efficiency
 Sources: Session reflection, 2026-06-28
-Raw: [../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md](../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md)
+Raw: "[../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md](../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md); [../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md](../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md)"
 Updated: 2026-06-28
 ---
 
@@ -21,3 +21,7 @@ Rule of thumb: Read once per file per session unless you have reason to believe 
 - **Edit** — sends only a diff. Use for targeted, surgical changes to specific sections of an existing file.
 
 Choosing the wrong tool is mostly a style issue for short files, but for long files, multiple Edit calls beat a single Write for both readability and safety — a failed Write discards everything, a failed Edit leaves the rest intact.
+
+## Rejected tool calls leave files unchanged
+
+When the user rejects an Edit or Write, the file is completely unmodified — the rejection is total, not partial. Don't chain a follow-up edit on top of a rejected one assuming any part of it landed. If unsure about the current file state after a rejection, re-read it before proceeding.

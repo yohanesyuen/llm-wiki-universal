@@ -1,7 +1,7 @@
 ---
 Title: Wiki Ingest and Cleanup Discipline
 Sources: Session reflection, 2026-06-27
-Raw: [../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md](../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md)
+Raw: "[../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md](../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md)"
 Updated: 2026-06-27
 ---
 

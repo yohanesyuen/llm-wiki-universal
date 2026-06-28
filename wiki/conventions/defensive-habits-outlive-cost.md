@@ -1,7 +1,7 @@
 ---
 Title: Defensive Habits Can Outlive Their Cost-Justification
 Sources: session-reflection, 2026-06-25
-Raw: [../../raw/conventions/defensive-habits-outlive-cost.md](../../raw/conventions/defensive-habits-outlive-cost.md)
+Raw: "[../../raw/conventions/defensive-habits-outlive-cost.md](../../raw/conventions/defensive-habits-outlive-cost.md)"
 Updated: 2026-06-27
 ---
 

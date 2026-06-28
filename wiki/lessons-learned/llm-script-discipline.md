@@ -1,9 +1,11 @@
-# LLM Script Discipline in Sessions
-
-**Topic**: lessons-learned
-**Updated**: 2026-06-28
-
 ---
+Title: LLM Script Discipline in Sessions
+Sources: Session reflection, 2026-06-28
+Raw: "[../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md](../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md)"
+Updated: 2026-06-28
+---
+
+# LLM Script Discipline in Sessions
 
 ## Don't Run LLM Inference Scripts In-Session
 
@@ -16,8 +18,6 @@ LLM inference (e.g., running a local MLX/llama.cpp model) is slow, verbose, and 
 
 **Instead:** verify imports and logic by reading code. Offer the command to the user and ask them to run it and paste back errors or output.
 
----
-
 ## Surface Stack Pivot Options Early
 
 When a chosen approach hits two dead ends in a row, the right move is to surface the pivot option explicitly rather than pushing deeper. Two successive dead ends (e.g., CJS/ESM incompatibility → model architecture incompatibility) are a signal that the chosen path may not be the right one.
@@ -26,14 +26,7 @@ At that point, ask: "Is this [language/stack/library] path firm, or would [simpl
 
 The cost of a late pivot is much higher than an early one — all work since the last known-good state is potentially discarded.
 
----
-
 ## See Also
 
 - [Pre-Flight Checks Before Building](preflight-checks-before-building.md)
 - [Name the Capability Gap Before Evaluating New Infrastructure](capability-gap-before-infrastructure-eval.md)
-
----
-
-*Sources: session-reflection 2026-06-28*
-*Raw: [../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md](../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md)*

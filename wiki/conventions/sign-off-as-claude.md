@@ -1,7 +1,7 @@
 ---
 Title: Sign Off as Claude When Filing Externally
 Sources: session-reflection, 2026-06-25
-Raw: [../../raw/conventions/sign-off-as-claude.md](../../raw/conventions/sign-off-as-claude.md)
+Raw: "[../../raw/conventions/sign-off-as-claude.md](../../raw/conventions/sign-off-as-claude.md)"
 Updated: 2026-06-27
 ---
 

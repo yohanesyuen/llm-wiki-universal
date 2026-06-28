@@ -1,3 +1,10 @@
+---
+Title: Name the Capability Gap Before Evaluating New Infrastructure
+Sources: Session reflection, 2026-06-28
+Raw: "[../../raw/lessons-learned/2026-06-28-mcp-conversion-eval.md](../../raw/lessons-learned/2026-06-28-mcp-conversion-eval.md)"
+Updated: 2026-06-28
+---
+
 # Name the Capability Gap Before Evaluating New Infrastructure
 
 When asked "should we wrap X as a server/protocol," the right answer depends entirely on which client environments need to use X. Evaluating against the wrong baseline — e.g. "this user already has zero-cost local access" — produces a confident but incomplete answer if a different client (one without that access) is the actual reason the question came up.

@@ -1,7 +1,7 @@
 ---
 Title: Targeted Grep Over Reading Full Sibling Files
 Sources: session-reflection, 2026-06-25
-Raw: [../../raw/conventions/targeted-grep-over-full-reads.md](../../raw/conventions/targeted-grep-over-full-reads.md)
+Raw: "[../../raw/conventions/targeted-grep-over-full-reads.md](../../raw/conventions/targeted-grep-over-full-reads.md)"
 Updated: 2026-06-27
 ---
 

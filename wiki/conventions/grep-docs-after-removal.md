@@ -1,7 +1,7 @@
 ---
 Title: Grep Docs for Stale References After Any Removal Commit
 Sources: session-reflection, 2026-06-25
-Raw: [../../raw/conventions/grep-docs-after-removal.md](../../raw/conventions/grep-docs-after-removal.md)
+Raw: "[../../raw/conventions/grep-docs-after-removal.md](../../raw/conventions/grep-docs-after-removal.md)"
 Updated: 2026-06-27
 ---
 

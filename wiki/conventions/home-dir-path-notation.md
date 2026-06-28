@@ -1,7 +1,7 @@
 ---
 Title: Write Home-Directory Paths as ~/... in Text Output
 Sources: session-reflection, 2026-06-25
-Raw: [../../raw/conventions/home-dir-path-notation.md](../../raw/conventions/home-dir-path-notation.md)
+Raw: "[../../raw/conventions/home-dir-path-notation.md](../../raw/conventions/home-dir-path-notation.md)"
 Updated: 2026-06-27
 ---
 

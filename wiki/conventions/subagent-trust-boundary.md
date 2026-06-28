@@ -1,7 +1,7 @@
 ---
 Title: Subagent Trust Boundary
 Sources: session-reflection, 2026-06-25
-Raw: [../../raw/conventions/subagent-trust-boundary.md](../../raw/conventions/subagent-trust-boundary.md)
+Raw: "[../../raw/conventions/subagent-trust-boundary.md](../../raw/conventions/subagent-trust-boundary.md)"
 Updated: 2026-06-27
 ---
 

@@ -5,7 +5,9 @@ Session retrospectives compiled into reusable process insights.
 
 | Article | Summary | Updated |
 |---|---|---|
-| [Session Tool Efficiency](lessons-learned/session-tool-efficiency.md) | File state is tracked per session — skip redundant Reads; use Write for full rewrites, Edit for targeted changes | 2026-06-28 |
+| [Installing dlib on Apple Silicon macOS](lessons-learned/dlib-apple-silicon-install.md) | Never pip-install dlib on arm64; use conda-forge in a non-base env; pin setuptools<71 for pkg_resources | 2026-06-28 |
+| [Skill Configuration and Responsibility Boundaries](lessons-learned/skill-config-and-responsibility.md) | Skill base directory header is authoritative; format specs belong in the skill that does the work; each skill owns a scoped output boundary | 2026-06-28 |
+| [Session Tool Efficiency](lessons-learned/session-tool-efficiency.md) | File state is tracked per session — skip redundant Reads; use Write for full rewrites, Edit for targeted changes; rejected tool calls leave files unchanged | 2026-06-28 |
 | [MCP Permissions and Allow List Hygiene](lessons-learned/mcp-permissions-and-allow-list-hygiene.md) | MCP rules use no parentheses; allow lists accumulate noise; two-pass cleanup (redundant globs, then one-timers) | 2026-06-28 |
 | [Name the Capability Gap Before Evaluating New Infrastructure](lessons-learned/capability-gap-before-infrastructure-eval.md) | Check which client surfaces actually need the new infra before recommending it; rank fixes cheapest-to-heaviest; verify the asset's real shape first | 2026-06-28 |
 | [Pre-Flight Checks Before Building](lessons-learned/preflight-checks-before-building.md) | Check ESM/CJS exports map before choosing output format; grep model config.json before loading with native binding; complete tool setup before invoking | 2026-06-28 |
@@ -19,6 +21,8 @@ Operating rules and confidentiality requirements.
 
 | Article | Summary | Updated |
 |---|---|---|
+| [When to Consult the Wiki](conventions/when-to-consult-wiki.md) | Trigger table only — read fresh each non-trivial task; links to procedure detail | 2026-06-28 |
+| [Wiki Consult Procedure](conventions/wiki-consult-procedure.md) | Scan depth limits, material pivot definition, and what to do after reading an article | 2026-06-28 |
 | [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md) | Never put names of persons or orgs in source code, commits, or issue messages | 2026-06-27 |
 | [Sign Off as Claude When Filing Externally](conventions/sign-off-as-claude.md) | Identify authorship as Claude in body text when filing issues, PRs, or comments on the user's behalf | 2026-06-27 |
 | [Numbered Lists for Referenceable Items](conventions/numbered-lists-for-referenceable-items.md) | Use numbered lists (not bullets) for anything the user might refer back to by index | 2026-06-27 |

@@ -1,9 +1,11 @@
-# MCP Permissions and Allow List Hygiene
-
-**Topic**: lessons-learned
-**Updated**: 2026-06-28
-
 ---
+Title: MCP Permissions and Allow List Hygiene
+Sources: Session reflection, 2026-06-28
+Raw: "[../../raw/lessons-learned/2026-06-28-mcp-permissions-settings-hygiene.md](../../raw/lessons-learned/2026-06-28-mcp-permissions-settings-hygiene.md)"
+Updated: 2026-06-28
+---
+
+# MCP Permissions and Allow List Hygiene
 
 ## MCP Permission Syntax Is Different from Bash
 
@@ -13,8 +15,6 @@ MCP rules use no parentheses at all: `"mcp__server__tool"` or `"mcp__server__*"`
 Mixing the two patterns either fails immediately (the settings validator catches it) or silently does nothing. Always use the `mcp__server__*` form for MCP tools — never wrap in parentheses.
 
 **The settings validator gives actionable error messages.** When a settings write is rejected, the error output includes the exact correct syntax. Read it before guessing.
-
----
 
 ## Allow Lists Accumulate Noise by Default
 
@@ -30,18 +30,10 @@ Every new permission prompt that gets approved adds one entry. Without periodic 
 
 Doing both at once is harder to reason about; separate passes keep the logic clean.
 
----
-
 ## Prefer Pattern Entries Over Instance Entries
 
 `"Bash(pip3 show *)"` is more durable than five specific `pip3 show <package>` approvals. When approving a recurring workflow at a prompt, consider whether the glob form is more appropriate than the exact command.
 
----
-
 ## Verification Before Claiming Success
 
 For MCP connections specifically: make a real API call to confirm authentication and data return, not just "the server is connected". A live query (e.g., `search_repositories`) is the right bar.
-
----
-
-*Sources: session-reflection 2026-06-28*
