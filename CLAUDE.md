@@ -5,6 +5,7 @@ Universal knowledge base. Sources live in `raw/`; compiled articles live in `wik
 - `wiki/index.md` — global article index
 - `wiki/log.md` — append-only operation log
 - Ingest by invoking the `karpathy-llm-wiki` skill, loaded from the main machine. There is no in-repo ingest script.
+  Skill source: https://github.com/yohanesyuen/karpathy-llm-wiki
 
 ## Writing to this wiki from another repo
 
