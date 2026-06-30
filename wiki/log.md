@@ -1,5 +1,30 @@
 # Wiki Log
 
+## [2026-06-30] ingest | [Don't Peek at a Fork's output_file](lessons-learned/dont-peek-at-fork-output.md)
+
+## [2026-06-30] ingest | [macOS BSD sed Does Not Support \b Word Boundaries](lessons-learned/macos-sed-word-boundary.md)
+
+## [2026-06-30] ingest | [Speckit Setup Scripts Resolve FEATURE_DIR by Git Branch](lessons-learned/speckit-script-branch-resolution.md)
+
+## [2026-06-30] ingest | [Parallel Agent Waves Need a Build Gate](lessons-learned/parallel-agent-build-gate.md)
+
+## [2026-06-29] ingest | [Verify CLI Install Commands from Official Docs](lessons-learned/verify-install-commands-from-docs.md)
+
+## [2026-06-29] ingest | [Passive Signals vs Hard Gates](lessons-learned/passive-signals-vs-hard-gates.md)
+
+## [2026-06-29] ingest | [Hook Authoring Discipline](lessons-learned/hook-authoring-discipline.md)
+
+## [2026-06-29] ingest | [Feature-Branch Git Workflow for AI-Assisted Development](conventions/feature-branch-git-workflow.md)
+
+## [2026-06-29] ingest | [Claude chat history as a repetition source](raw/lessons-learned/2026-06-29-claude-chat-history-as-repetition-source.md)
+- Updated: [Scripting Recurring CLI Prompts](lessons-learned/scripting-recurring-cli-prompts.md)
+
+## [2026-06-29] ingest | [Scripting Recurring CLI Prompts](lessons-learned/scripting-recurring-cli-prompts.md)
+
+## [2026-06-28] lint | 23 issues found, 23 auto-fixed — added `type` field to all article frontmatter (OKF conformance)
+
+## [2026-06-28] ingest | [Open Knowledge Format (OKF)](knowledge-formats/open-knowledge-format.md)
+
 ## [2026-06-28] ingest | [When to Consult the Wiki](conventions/when-to-consult-wiki.md)
 - Compressed to trigger table + intro only; procedural detail moved to wiki-consult-procedure.md
 - Created: [Wiki Consult Procedure](conventions/wiki-consult-procedure.md)
@@ -40,3 +65,5 @@
 - Created raw/ and wiki/ directories
 - Created wiki/index.md and wiki/log.md
 - Created CLAUDE.md (wiki root) and ~/.claude/CLAUDE.md (global rules)
+
+## [2026-06-29] ingest | Allowlist Audit and Session Hygiene

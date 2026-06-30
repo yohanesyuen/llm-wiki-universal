@@ -1,4 +1,6 @@
 ---
+type: lesson
+tags: [planning, tooling, llm]
 Title: Pre-Flight Checks Before Building
 Sources: Session reflection, 2026-06-28
 Raw: "[../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md](../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md)"

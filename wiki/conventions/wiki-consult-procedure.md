@@ -1,4 +1,6 @@
 ---
+type: convention
+tags: [wiki, knowledge-management]
 Title: Wiki Consult Procedure
 Updated: 2026-06-28
 ---

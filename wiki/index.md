@@ -15,6 +15,22 @@ Session retrospectives compiled into reusable process insights.
 | [Wiki Ingest and Cleanup Discipline](lessons-learned/wiki-ingest-and-cleanup-discipline.md) | One concept per article regardless of source; clean up content not config; check for self-referential staleness | 2026-06-27 |
 | [Named Size in a Spec Means Example, Not Constraint](lessons-learned/named-size-means-example-not-constraint.md) | Treat specific sizes ("2x2", "3-tier") as illustrative, not fixed; ask before implementing; keep thin wrappers for backward compat | 2026-06-27 |
 | [Public Repo Setup Discipline](lessons-learned/public-repo-setup-discipline.md) | Ordered checklist before `gh repo create --public`: confirm target, write .gitignore, grep for confidential info; add uppercase disclaimer for AI-generated content | 2026-06-28 |
+| [Scripting Recurring CLI Prompts](lessons-learned/scripting-recurring-cli-prompts.md) | Check both shell history and Claude chat history for the request's constant scaffold to find real repeats; only script when the variable part is isolable; skip trivial single commands; wrapper scripts should `exec` into the underlying tool | 2026-06-29 |
+| [Allowlist Audit and Session Hygiene](lessons-learned/allowlist-audit-and-session-hygiene.md) | Audit recurring tool patterns using dual-source history to determine allowlist thresholds and implement session-end hygiene hooks. | 2026-06-29 |
+| [Hook Authoring Discipline](lessons-learned/hook-authoring-discipline.md) | Use portable path resolution in hook scripts; auto-memory is CWD-scoped by default; hook event migration is a three-part change; generic corrections belong in the wiki not memory; sanitize public wiki drafts before writing | 2026-06-29 |
+| [Passive Signals vs Hard Gates](lessons-learned/passive-signals-vs-hard-gates.md) | additionalContext hooks are advisory and can be ignored; permissionDecision: deny is a hard gate; use gates for constraints that have already been violated despite reminders; gate patterns must be tight to avoid false positives | 2026-06-29 |
+| [Verify CLI Install Commands from Official Docs](lessons-learned/verify-install-commands-from-docs.md) | Never write an install command from memory; fetch the README first; a rejected edit with a doc pointer is a research task, not a rewrite | 2026-06-29 |
+| [macOS BSD sed Does Not Support \b Word Boundaries](lessons-learned/macos-sed-word-boundary.md) | BSD sed exits 0 but makes no changes with \b; use perl -pi -e or Python re.sub instead; always grep-verify after substitution | 2026-06-30 |
+| [Speckit Setup Scripts Resolve FEATURE_DIR by Git Branch](lessons-learned/speckit-script-branch-resolution.md) | setup-tasks.sh and check-prerequisites.sh ignore the spec number arg and match by branch name; switch to the spec branch first, or bypass the skill entirely | 2026-06-30 |
+| [Parallel Agent Waves Need a Build Gate](lessons-learned/parallel-agent-build-gate.md) | tsc --noEmit misses project-ref errors, missing deps, and uncalled style helpers; run the full build after every parallel agent wave | 2026-06-30 |
+| [Don't Peek at a Fork's output_file](lessons-learned/dont-peek-at-fork-output.md) | Reading a fork's output_file mid-flight pulls raw tool noise into your context and defeats the point of forking; wait for the completion notification | 2026-06-30 |
+
+## knowledge-formats
+Specifications and standards for representing and distributing structured knowledge.
+
+| Article | Summary | Updated |
+|---|---|---|
+| [Open Knowledge Format (OKF)](knowledge-formats/open-knowledge-format.md) | Markdown files + YAML frontmatter as the distribution unit for machine- and human-readable knowledge bundles; covers structure, fields, cross-linking, conformance, and distribution | 2026-06-28 |
 
 ## conventions
 Operating rules and confidentiality requirements.
@@ -33,3 +49,4 @@ Operating rules and confidentiality requirements.
 | [Ask for Domain Rules Before Deriving Proxies](conventions/ask-for-domain-rules-before-proxies.md) | When ordering/grouping depends on domain logic not visible in data, ask for the rule before computing | 2026-06-27 |
 | [Targeted Grep Over Reading Full Sibling Files](conventions/targeted-grep-over-full-reads.md) | Grep for a specific signal rather than reading entire files end-to-end to answer a narrow question | 2026-06-27 |
 | [Grep Docs for Stale References After Any Removal Commit](conventions/grep-docs-after-removal.md) | After removing or renaming a script, grep docs for the old name before trusting them | 2026-06-27 |
+| [Feature-Branch Git Workflow for AI-Assisted Development](conventions/feature-branch-git-workflow.md) | Never commit to main directly; every commit references an issue; agent sessions end with a test-gated auto-commit | 2026-06-29 |

@@ -1,4 +1,6 @@
 ---
+type: convention
+tags: [security, git]
 Title: No Confidential Information in Code or Git History
 Sources: User instruction
 Raw: "[../../raw/conventions/no-confidential-leak.md](../../raw/conventions/no-confidential-leak.md)"

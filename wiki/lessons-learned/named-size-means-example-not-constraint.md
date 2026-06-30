@@ -1,4 +1,6 @@
 ---
+type: lesson
+tags: [specification, clarification, planning]
 Title: Named Size in a Spec Means Example, Not Constraint
 Updated: 2026-06-27
 Sources: session reflection, 2026-06-27

@@ -1,4 +1,6 @@
 ---
+type: lesson
+tags: [skill, knowledge-management]
 Title: Skill Configuration and Responsibility Boundaries
 Sources: Session reflection, 2026-06-28
 Raw: "[../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md](../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md)"

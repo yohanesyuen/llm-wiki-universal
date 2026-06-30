@@ -1,4 +1,6 @@
 ---
+type: lesson
+tags: [installation, python, macos]
 Title: Installing dlib on Apple Silicon macOS
 Sources: Session reflection, 2026-06-28
 Raw: "[../../raw/lessons-learned/2026-06-28-dlib-apple-silicon-install.md](../../raw/lessons-learned/2026-06-28-dlib-apple-silicon-install.md)"

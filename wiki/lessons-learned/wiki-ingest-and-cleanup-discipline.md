@@ -1,4 +1,6 @@
 ---
+type: lesson
+tags: [wiki, knowledge-management, hygiene]
 Title: Wiki Ingest and Cleanup Discipline
 Sources: Session reflection, 2026-06-27
 Raw: "[../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md](../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md)"

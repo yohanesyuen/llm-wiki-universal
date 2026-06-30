@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "auto-skill": {
+      "source": "toolsai/auto-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "725c2b0119678f70c7ccf6c60b7cb74ce7563da512d240688ef04f49a52fa760"
+    }
+  }
+}

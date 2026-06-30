@@ -1,4 +1,6 @@
 ---
+type: lesson
+tags: [mcp, hygiene, session]
 Title: MCP Permissions and Allow List Hygiene
 Sources: Session reflection, 2026-06-28
 Raw: "[../../raw/lessons-learned/2026-06-28-mcp-permissions-settings-hygiene.md](../../raw/lessons-learned/2026-06-28-mcp-permissions-settings-hygiene.md)"
