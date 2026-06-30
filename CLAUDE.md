@@ -4,7 +4,7 @@ Universal knowledge base. Sources live in `raw/`; compiled articles live in `wik
 
 - `wiki/index.md` — global article index
 - `wiki/log.md` — append-only operation log
-- Ingest via scripts; do not invoke karpathy-llm-wiki skill (disabled).
+- Ingest by invoking the `karpathy-llm-wiki` skill, loaded from the main machine. There is no in-repo ingest script.
 
 ## Writing to this wiki from another repo
 
@@ -29,13 +29,13 @@ the repo differs.
    subdirectory (e.g. `lessons-learned`, `conventions`); it becomes the article's
    topic. Sanitize first — no personal or confidential info (see
    `wiki/conventions/no-confidential-leak.md`).
-3. Compile with `python ingest.py` (optionally `--topics <topic>`, or `--dry-run`
-   to preview). It finds raw files not yet referenced by any article, writes/merges
-   the article, and updates `wiki/index.md` and `wiki/log.md`. Do **not** edit
-   files under `wiki/` by hand.
+3. Compile by invoking the `karpathy-llm-wiki` skill. It finds raw files not yet
+   referenced by any article, writes/merges the article, and updates
+   `wiki/index.md` and `wiki/log.md`. Do **not** edit files under `wiki/` by hand.
 4. Commit (`raw/` source + the generated `wiki/` changes together), push, open a PR.
 
-Note: `ingest.py` runs a local MLX model (`mlx_lm`), so step 3 only works where
-that is installed — typically your own machine, not a web container. From a web
-session you can still add to `raw/` and push; run the ingest where MLX is
-available, or note in the PR that the raw source awaits ingestion.
+Note: ingest depends on the `karpathy-llm-wiki` skill, which lives on the main
+machine and is **not** checked into this repo — step 3 only works there. From any
+other session (a web container, or a session rooted in a different repo) you can
+still add to `raw/` and push; run the ingest from the main machine, or note in the
+PR that the raw source awaits ingestion.
