@@ -6,6 +6,11 @@
       "sourceType": "github",
       "skillPath": "SKILL.md",
       "computedHash": "725c2b0119678f70c7ccf6c60b7cb74ce7563da512d240688ef04f49a52fa760"
+    },
+    "karpathy-llm-wiki": {
+      "source": "yohanesyuen/karpathy-llm-wiki",
+      "sourceType": "github",
+      "skillPath": "SKILL.md"
     }
   }
 }
