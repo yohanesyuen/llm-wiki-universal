@@ -29,3 +29,4 @@ A multi-minute batch job (LLM summarization per chunk, run across hundreds of it
 
 - [Don't Peek at a Fork's output_file](dont-peek-at-fork-output.md) — same "wait for the notification, don't poll" discipline applied to forked agents instead of background shell jobs
 - [Feature-Branch Git Workflow for AI-Assisted Development](../conventions/feature-branch-git-workflow.md) — related git-safety conventions
+- [A Denied Command Inside a Chained Shell Call Blocks the Whole Chain](chained-command-denial-blocks-whole-chain.md) — a related shell-permission failure mode
