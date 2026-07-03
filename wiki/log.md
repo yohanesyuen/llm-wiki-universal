@@ -1,5 +1,8 @@
 # Wiki Log
 
+## [2026-07-03] ingest | [Sanitize Content Before Writing to an External Tracker](conventions/sanitize-before-external-tracker.md)
+- Updated: [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md)
+
 ## [2026-06-30] ingest | [Don't Peek at a Fork's output_file](lessons-learned/dont-peek-at-fork-output.md)
 
 ## [2026-06-30] ingest | [macOS BSD sed Does Not Support \b Word Boundaries](lessons-learned/macos-sed-word-boundary.md)

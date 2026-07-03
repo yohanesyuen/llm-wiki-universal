@@ -39,7 +39,8 @@ Operating rules and confidentiality requirements.
 |---|---|---|
 | [When to Consult the Wiki](conventions/when-to-consult-wiki.md) | Trigger table only — read fresh each non-trivial task; links to procedure detail | 2026-06-28 |
 | [Wiki Consult Procedure](conventions/wiki-consult-procedure.md) | Scan depth limits, material pivot definition, and what to do after reading an article | 2026-06-28 |
-| [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md) | Never put names of persons or orgs in source code, commits, or issue messages | 2026-06-27 |
+| [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md) | Never put names of persons or orgs in source code, commits, or issue messages | 2026-07-03 |
+| [Sanitize Content Before Writing to an External Tracker](conventions/sanitize-before-external-tracker.md) | Strip raw data values, proprietary identifiers, and path structure — not just names — before writing to any external tracker or chat | 2026-07-03 |
 | [Sign Off as Claude When Filing Externally](conventions/sign-off-as-claude.md) | Identify authorship as Claude in body text when filing issues, PRs, or comments on the user's behalf | 2026-06-27 |
 | [Numbered Lists for Referenceable Items](conventions/numbered-lists-for-referenceable-items.md) | Use numbered lists (not bullets) for anything the user might refer back to by index | 2026-06-27 |
 | [Defensive Habits Can Outlive Their Cost-Justification](conventions/defensive-habits-outlive-cost.md) | Periodically re-examine whether a standing verification habit still needs its expensive path | 2026-06-27 |
