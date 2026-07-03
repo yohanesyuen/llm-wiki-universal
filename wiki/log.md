@@ -1,5 +1,13 @@
 # Wiki Log
 
+## [2026-07-04] ingest | [Fork Resumption Is Unreliable for "Spawn, Then Follow Up" Patterns](lessons-learned/fork-resumption-follow-up-unreliable.md)
+- Created: [A Denied Command Inside a Chained Shell Call Blocks the Whole Chain](lessons-learned/chained-command-denial-blocks-whole-chain.md)
+- Created: [Confirm Scope Before Building Automation; Gate Anything Self-Modifying](conventions/scope-before-autonomous-automation.md)
+- Updated: [Hook Authoring Discipline](lessons-learned/hook-authoring-discipline.md)
+- Updated: [Feature-Branch Git Workflow for AI-Assisted Development](conventions/feature-branch-git-workflow.md)
+- Updated: [Don't Peek at a Fork's output_file](lessons-learned/dont-peek-at-fork-output.md)
+- Updated: [Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs](lessons-learned/destructive-op-confirmation-and-background-jobs.md)
+
 ## [2026-07-03] merge | [Sanitize Content Before Writing to an External Tracker](conventions/sanitize-before-external-tracker.md) → [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md)
 - The former was a strict superset of the latter's rule (self-flagged in its own See Also); folded its content in and deleted the standalone article to cut duplicate conventions.
 - Updated: [Never Read Secret Values Into Agent Context](conventions/never-expose-secrets-to-agent-context.md) (redirected its cross-link)

@@ -1,8 +1,8 @@
 ---
 Title: Feature-Branch Git Workflow for AI-Assisted Development
-Sources: Internal project workflow doc; 2026-06-29
-Raw: "[2026-06-29-feature-branch-git-workflow.md](../../raw/conventions/2026-06-29-feature-branch-git-workflow.md)"
-Updated: 2026-06-29
+Sources: Internal project workflow doc; 2026-06-29; Session reflection, 2026-07-04
+Raw: "[2026-06-29-feature-branch-git-workflow.md](../../raw/conventions/2026-06-29-feature-branch-git-workflow.md); [2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
+Updated: 2026-07-04
 ---
 	
 # Feature-Branch Git Workflow for AI-Assisted Development
@@ -66,6 +66,7 @@ git rebase main   # if on a feature branch behind main
 
 - `gh pr create` with special characters in `-b` can mis-parse; use `-F <file>` (body from file) instead.
 - Exit code -1 from `gh`/shell can be a false negative — if the output contains a URL or hash with no error text, the command succeeded.
+- `gh pr merge` updates the **remote** branch only. It does not touch the local checkout. After merging a PR through the CLI, explicitly `git fetch` and fast-forward (or `git pull`) the local base branch before assuming it's current or branching further work from it — otherwise new work gets based on a stale point.
 
 ## See Also
 
