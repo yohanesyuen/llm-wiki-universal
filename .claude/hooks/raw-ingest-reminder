@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+"""
+PostToolUse hook: after a Write or Edit under raw/**/*.md in this repo,
+print a non-blocking reminder to run the karpathy-llm-wiki ingest flow.
+Does not auto-ingest — ingestion stays a deliberate action.
+
+Fires at most once per file per session (a file being actively drafted
+gets edited many times; only the first edit needs the nudge).
+"""
+
+import hashlib
+import json
+import sys
+import tempfile
+from pathlib import Path
+
+data = json.load(sys.stdin)
+
+file_path = (
+    data.get("tool_input", {}).get("file_path")
+    or data.get("tool_response", {}).get("filePath")
+    or ""
+)
+if not file_path:
+    sys.exit(0)
+
+p = Path(file_path)
+if p.suffix != ".md":
+    sys.exit(0)
+
+parts = p.parts
+if "raw" not in parts:
+    sys.exit(0)
+raw_idx = parts.index("raw")
+if len(parts) <= raw_idx + 2:
+    # must be raw/<topic>/<file>.md, not raw/ itself or a bare raw/<file>.md
+    sys.exit(0)
+
+session_id = data.get("session_id", "unknown")
+key = hashlib.sha1(f"{session_id}:{p}".encode()).hexdigest()
+marker = Path(tempfile.gettempdir()) / f"claude-raw-ingest-reminder-{key}"
+if marker.exists():
+    sys.exit(0)
+marker.touch()
+
+print(json.dumps({
+    "systemMessage": (
+        f"New/edited raw source detected ({p.name}) — run the "
+        "karpathy-llm-wiki ingest flow on this file to compile it into the wiki."
+    ),
+}))

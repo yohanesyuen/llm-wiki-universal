@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/llm-wiki-universal/.claude/hooks/raw-ingest-reminder",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
