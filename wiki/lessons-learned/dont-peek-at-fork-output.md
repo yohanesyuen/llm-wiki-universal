@@ -28,3 +28,4 @@ Forks keep their raw tool output out of the coordinator's context. Peeking at `o
 
 - [Session Tool Efficiency](session-tool-efficiency.md) — same principle applied to in-session tool calls: avoid redundant reads
 - [Parallel Agent Waves Need a Build Gate](parallel-agent-build-gate.md) — related discipline around agent completion signals
+- [Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs](destructive-op-confirmation-and-background-jobs.md) — same "wait for notification, don't poll" discipline applied to backgrounded shell jobs

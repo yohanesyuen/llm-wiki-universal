@@ -13,6 +13,13 @@
 ## [2026-07-03] ingest | [Sanitize Content Before Writing to an External Tracker](conventions/sanitize-before-external-tracker.md)
 - Updated: [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md)
 
+## [2026-07-03] ingest | [Quarantine a Destructive Script the Moment Its Blind Spot Is Found](lessons-learned/quarantine-destructive-scripts-immediately.md)
+- Updated: [Pre-Flight Checks Before Building](lessons-learned/preflight-checks-before-building.md)
+- Updated: [Real Timestamps Beat File-Modification Timestamps for Falsifiable Claims](lessons-learned/real-timestamps-for-falsifiable-claims.md)
+- Updated: [Self-Deleting Instruction Injection](lessons-learned/self-deleting-instruction-injection.md)
+- Updated: [Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs](lessons-learned/destructive-op-confirmation-and-background-jobs.md)
+- Updated: [Don't Peek at a Fork's output_file](lessons-learned/dont-peek-at-fork-output.md)
+
 ## [2026-06-30] ingest | [Don't Peek at a Fork's output_file](lessons-learned/dont-peek-at-fork-output.md)
 
 ## [2026-06-30] ingest | [macOS BSD sed Does Not Support \b Word Boundaries](lessons-learned/macos-sed-word-boundary.md)

@@ -4,7 +4,7 @@ Sources: Internal project workflow doc; 2026-06-29
 Raw: "[2026-06-29-feature-branch-git-workflow.md](../../raw/conventions/2026-06-29-feature-branch-git-workflow.md)"
 Updated: 2026-06-29
 ---
-
+	
 # Feature-Branch Git Workflow for AI-Assisted Development
 
 ## Core Rules

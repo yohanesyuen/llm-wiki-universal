@@ -2,9 +2,9 @@
 type: lesson
 tags: [planning, tooling, llm]
 Title: Pre-Flight Checks Before Building
-Sources: Session reflection, 2026-06-28
-Raw: "[../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md](../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md)"
-Updated: 2026-06-28
+Sources: Session reflection, 2026-06-28; Session reflection, 2026-07-03
+Raw: "[../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md](../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md); [../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
+Updated: 2026-07-03
 ---
 
 # Pre-Flight Checks Before Building
@@ -57,3 +57,13 @@ Pattern:
 1. Implement the feature
 2. Read through the code to confirm correctness
 3. Hand the invocation to the user
+
+## Check Documented Environment Conventions Before the First Command
+
+A command failed against a system-default runtime that didn't have a required dependency installed, when project documentation already specified which runtime to use and why. The convention existed and was correct — the cost was one avoidable failed command before checking it.
+
+Grep a project's documentation (CLAUDE.md, README, contributing docs) for environment/runtime conventions before the first command in a new working area, rather than discovering them via a failed command. Reactive convention-checking (after an error) costs a diagnostic detour that proactive checking (before the first command) avoids entirely.
+
+## See Also
+
+- [Quarantine a Destructive Script the Moment Its Blind Spot Is Found](quarantine-destructive-scripts-immediately.md) — same theme of checking/acting proactively rather than reacting to a failure after the fact
