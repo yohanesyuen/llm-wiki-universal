@@ -1,5 +1,18 @@
 # Wiki Log
 
+## [2026-07-03] merge | [Sanitize Content Before Writing to an External Tracker](conventions/sanitize-before-external-tracker.md) → [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md)
+- The former was a strict superset of the latter's rule (self-flagged in its own See Also); folded its content in and deleted the standalone article to cut duplicate conventions.
+- Updated: [Never Read Secret Values Into Agent Context](conventions/never-expose-secrets-to-agent-context.md) (redirected its cross-link)
+- Updated: `wiki/index.md` (removed the now-merged row)
+
+## [2026-07-03] lint | 4 issues found, 1 auto-fixed
+
+## [2026-07-03] ingest | [Never Read Secret Values Into Agent Context](conventions/never-expose-secrets-to-agent-context.md)
+- Updated: [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md)
+
+## [2026-07-03] ingest | [Sanitize Content Before Writing to an External Tracker](conventions/sanitize-before-external-tracker.md)
+- Updated: [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md)
+
 ## [2026-06-30] ingest | [Don't Peek at a Fork's output_file](lessons-learned/dont-peek-at-fork-output.md)
 
 ## [2026-06-30] ingest | [macOS BSD sed Does Not Support \b Word Boundaries](lessons-learned/macos-sed-word-boundary.md)

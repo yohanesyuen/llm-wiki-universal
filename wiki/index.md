@@ -39,7 +39,7 @@ Operating rules and confidentiality requirements.
 |---|---|---|
 | [When to Consult the Wiki](conventions/when-to-consult-wiki.md) | Trigger table only — read fresh each non-trivial task; links to procedure detail | 2026-06-28 |
 | [Wiki Consult Procedure](conventions/wiki-consult-procedure.md) | Scan depth limits, material pivot definition, and what to do after reading an article | 2026-06-28 |
-| [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md) | Never put names of persons or orgs in source code, commits, or issue messages | 2026-06-27 |
+| [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md) | Never put names, orgs, raw data values, proprietary identifiers, or path structure in source code, commits, issues, or any external tracker/chat | 2026-07-03 |
 | [Sign Off as Claude When Filing Externally](conventions/sign-off-as-claude.md) | Identify authorship as Claude in body text when filing issues, PRs, or comments on the user's behalf | 2026-06-27 |
 | [Numbered Lists for Referenceable Items](conventions/numbered-lists-for-referenceable-items.md) | Use numbered lists (not bullets) for anything the user might refer back to by index | 2026-06-27 |
 | [Defensive Habits Can Outlive Their Cost-Justification](conventions/defensive-habits-outlive-cost.md) | Periodically re-examine whether a standing verification habit still needs its expensive path | 2026-06-27 |
@@ -50,3 +50,4 @@ Operating rules and confidentiality requirements.
 | [Targeted Grep Over Reading Full Sibling Files](conventions/targeted-grep-over-full-reads.md) | Grep for a specific signal rather than reading entire files end-to-end to answer a narrow question | 2026-06-27 |
 | [Grep Docs for Stale References After Any Removal Commit](conventions/grep-docs-after-removal.md) | After removing or renaming a script, grep docs for the old name before trusting them | 2026-06-27 |
 | [Feature-Branch Git Workflow for AI-Assisted Development](conventions/feature-branch-git-workflow.md) | Never commit to main directly; every commit references an issue; agent sessions end with a test-gated auto-commit | 2026-06-29 |
+| [Never Read Secret Values Into Agent Context](conventions/never-expose-secrets-to-agent-context.md) | Treat "does this expose a raw secret" as a hard gate on shell commands; use masked validators and schema files instead of `cat .env` / `echo $SECRET` | 2026-07-03 |
