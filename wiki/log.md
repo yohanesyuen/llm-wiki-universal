@@ -95,3 +95,6 @@
 - Created CLAUDE.md (wiki root) and ~/.claude/CLAUDE.md (global rules)
 
 ## [2026-06-29] ingest | Allowlist Audit and Session Hygiene
+
+## [2026-07-04] ingest | [Wiki Automation Gaps Found by Comparing Against a Reference Implementation](lessons-learned/wiki-automation-gaps-vs-reference-implementation.md)
+- Updated: [Wiki Ingest and Cleanup Discipline](lessons-learned/wiki-ingest-and-cleanup-discipline.md)

@@ -4,7 +4,7 @@ tags: [wiki, knowledge-management, hygiene]
 Title: Wiki Ingest and Cleanup Discipline
 Sources: Session reflection, 2026-06-27
 Raw: "[../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md](../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md)"
-Updated: 2026-06-27
+Updated: 2026-07-04
 ---
 
 # Wiki Ingest and Cleanup Discipline
@@ -30,3 +30,7 @@ When a session modifies a skill, rule, or reference that is itself cited elsewhe
 - **`gh api repos/.../contents`** — browse GitHub repo structure without WebFetch auth issues. Recursive flag (`-F recursive=1`) may 404 on some repos; fall back to directory-by-directory listing.
 - **Numbered ranked list with emojis** — for multi-turn selection flows, a numbered + ranked list lets the user pick by index across turns without re-explaining context. Rankings reduce the user's cognitive load when prioritizing.
 - **Incremental import loop** — show full candidate list → user picks → ingest → re-list remaining. Clean multi-turn pattern for selective knowledge transfer.
+
+## See Also
+
+- [Wiki Automation Gaps Found by Comparing Against a Reference Implementation](wiki-automation-gaps-vs-reference-implementation.md) — pipeline-level gaps (lint, retopology, single-machine bottleneck) complementing these per-ingest rules
