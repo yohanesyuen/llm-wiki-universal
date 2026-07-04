@@ -1,5 +1,8 @@
 # Wiki Log
 
+## [2026-07-04] ingest | [Layer-Boundary Config Bugs and Staged Service Cutover](lessons-learned/layer-boundary-configs-and-staged-cutover.md)
+- Updated: [Never Read Secret Values Into Agent Context](conventions/never-expose-secrets-to-agent-context.md)
+
 ## [2026-07-04] ingest | [Fork Resumption Is Unreliable for "Spawn, Then Follow Up" Patterns](lessons-learned/fork-resumption-follow-up-unreliable.md)
 - Created: [A Denied Command Inside a Chained Shell Call Blocks the Whole Chain](lessons-learned/chained-command-denial-blocks-whole-chain.md)
 - Created: [Confirm Scope Before Building Automation; Gate Anything Self-Modifying](conventions/scope-before-autonomous-automation.md)

@@ -42,3 +42,4 @@ This mirrors the general policy against reading raw data files directly ([No Con
 ## See Also
 
 - [No Confidential Information in Code or Git History](no-confidential-leak.md) — same spirit applied to names/orgs and raw data values instead of secret values
+- [Layer-Boundary Config Bugs and Staged Service Cutover](../lessons-learned/layer-boundary-configs-and-staged-cutover.md) — adjacent rule: never fabricate a placeholder secret for a live account when an interactive reset tool fails, even transiently
