@@ -1,5 +1,22 @@
 # Wiki Log
 
+## [2026-07-06] ingest | [A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope](lessons-learned/guard-scope-vs-verbal-override.md)
+- Created: [Root-Cause UI Bugs to the Shared Primitive Behind Them](lessons-learned/root-cause-shared-styling-primitives.md)
+- Updated: [Feature-Branch Git Workflow for AI-Assisted Development](conventions/feature-branch-git-workflow.md)
+- Updated: [Parallel Agent Waves Need a Build Gate](lessons-learned/parallel-agent-build-gate.md)
+- Updated: [Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default](lessons-learned/debug-print-secret-leak.md)
+- Updated: [Confirm Scope Before Building Automation; Gate Anything Self-Modifying](conventions/scope-before-autonomous-automation.md)
+- Updated: [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](lessons-learned/worktree-liveness-check-before-destructive-cleanup.md)
+
+## [2026-07-06] ingest | [Probe Sibling APIs Directly; Plausible-Small Numbers Are a Bug Smell](lessons-learned/api-capability-probing-and-plausible-wrong-values.md)
+- Updated: [Pre-Flight Checks Before Building](lessons-learned/preflight-checks-before-building.md)
+
+## [2026-07-05] ingest | [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](lessons-learned/worktree-liveness-check-before-destructive-cleanup.md)
+- Updated: [Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs](lessons-learned/destructive-op-confirmation-and-background-jobs.md)
+- Updated: [Confirm Scope Before Building Automation; Gate Anything Self-Modifying](conventions/scope-before-autonomous-automation.md)
+- Updated: [Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default](lessons-learned/debug-print-secret-leak.md)
+- Updated: [Quarantine a Destructive Script the Moment Its Blind Spot Is Found](lessons-learned/quarantine-destructive-scripts-immediately.md)
+
 ## [2026-07-04] ingest | [Layer-Boundary Config Bugs and Staged Service Cutover](lessons-learned/layer-boundary-configs-and-staged-cutover.md)
 - Updated: [Never Read Secret Values Into Agent Context](conventions/never-expose-secrets-to-agent-context.md)
 
@@ -101,3 +118,8 @@
 
 ## [2026-07-04] ingest | [Wiki Automation Gaps Found by Comparing Against a Reference Implementation](lessons-learned/wiki-automation-gaps-vs-reference-implementation.md)
 - Updated: [Wiki Ingest and Cleanup Discipline](lessons-learned/wiki-ingest-and-cleanup-discipline.md)
+
+## [2026-07-05] ingest | [Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default](lessons-learned/debug-print-secret-leak.md)
+- Updated: [Never Read Secret Values Into Agent Context](conventions/never-expose-secrets-to-agent-context.md)
+- Updated: [Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs](lessons-learned/destructive-op-confirmation-and-background-jobs.md)
+- Updated: [Layer-Boundary Config Bugs and Staged Service Cutover](lessons-learned/layer-boundary-configs-and-staged-cutover.md)

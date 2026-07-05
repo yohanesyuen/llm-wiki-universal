@@ -67,3 +67,4 @@ Grep a project's documentation (CLAUDE.md, README, contributing docs) for enviro
 ## See Also
 
 - [Quarantine a Destructive Script the Moment Its Blind Spot Is Found](quarantine-destructive-scripts-immediately.md) — same theme of checking/acting proactively rather than reacting to a failure after the fact
+- [Probe Sibling APIs Directly; Plausible-Small Numbers Are a Bug Smell](api-capability-probing-and-plausible-wrong-values.md) — same pre-flight-verification instinct applied to API capability surfaces instead of package/model/environment compatibility
