@@ -1,10 +1,10 @@
 ---
 type: lesson
-tags: [agents, build, typescript, monorepo, parallel]
+tags: [agents, build, typescript, monorepo, parallel, testing]
 Title: Parallel Agent Waves Need a Build Gate, Not Just a Type Check
-Sources: Session reflection, 2026-06-30
-Raw: "[../../raw/lessons-learned/2026-06-30-parallel-agent-build-gate.md](../../raw/lessons-learned/2026-06-30-parallel-agent-build-gate.md)"
-Updated: 2026-06-30
+Sources: Session reflection, 2026-06-30; Session reflection, 2026-07-06
+Raw: "[../../raw/lessons-learned/2026-06-30-parallel-agent-build-gate.md](../../raw/lessons-learned/2026-06-30-parallel-agent-build-gate.md); [2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
+Updated: 2026-07-06
 ---
 
 # Parallel Agent Waves Need a Build Gate, Not Just a Type Check
@@ -31,6 +31,12 @@ pnpm -r build   # or equivalent for your stack
 ## Why it matters
 
 Each wave that skips the build gate pushes type errors downstream. Catching them per wave costs seconds. Catching them in CI or a remote deploy costs a full pipeline cycle.
+
+## The same principle applies to the test suite, not just the build
+
+Running only the tests for touched files misses regressions in sibling files. Adding a new loading-state label to one component collided with an existing test's regex assertion elsewhere, which started matching two elements instead of one — invisible if only the changed component's own test file had been run. Running the *whole* test suite (not just files changed in the current diff) surfaced this as a genuinely new failure, distinguishable from already-known, pre-existing unrelated failures.
+
+**Rule**: after touching any shared text/label/string, run the full test suite, not just the file you changed — string-matching collisions in sibling test files are easy to miss otherwise.
 
 ## See Also
 

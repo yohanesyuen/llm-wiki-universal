@@ -43,3 +43,4 @@ This mirrors the general policy against reading raw data files directly ([No Con
 
 - [No Confidential Information in Code or Git History](no-confidential-leak.md) — same spirit applied to names/orgs and raw data values instead of secret values
 - [Layer-Boundary Config Bugs and Staged Service Cutover](../lessons-learned/layer-boundary-configs-and-staged-cutover.md) — adjacent rule: never fabricate a placeholder secret for a live account when an interactive reset tool fails, even transiently
+- [Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default](../lessons-learned/debug-print-secret-leak.md) — same concern applied to a helper function's return value, not just direct env/file reads

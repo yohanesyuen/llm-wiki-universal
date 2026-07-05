@@ -30,3 +30,5 @@ A multi-minute batch job (LLM summarization per chunk, run across hundreds of it
 - [Don't Peek at a Fork's output_file](dont-peek-at-fork-output.md) — same "wait for the notification, don't poll" discipline applied to forked agents instead of background shell jobs
 - [Feature-Branch Git Workflow for AI-Assisted Development](../conventions/feature-branch-git-workflow.md) — related git-safety conventions
 - [A Denied Command Inside a Chained Shell Call Blocks the Whole Chain](chained-command-denial-blocks-whole-chain.md) — a related shell-permission failure mode
+- [Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default](debug-print-secret-leak.md) — same one-time-approval-isn't-blanket discipline reapplied to a second, materially identical case in the same session
+- [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](worktree-liveness-check-before-destructive-cleanup.md) — a case where confirmation and a state check both happened, but a concurrent live process still lost work; confirmation alone isn't sufficient once another agent may be mid-use

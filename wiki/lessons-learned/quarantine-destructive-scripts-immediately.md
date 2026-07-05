@@ -28,3 +28,4 @@ If the script has ongoing value, quarantine it: move it out of the working direc
 ## See Also
 
 - [Pre-Flight Checks Before Building](preflight-checks-before-building.md) — same theme of checking before acting rather than discovering the failure mode reactively
+- [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](worktree-liveness-check-before-destructive-cleanup.md) — a newer destructive-automation blind spot (git state checked, but no cross-process liveness signal), tested against a fixture before being wired in

@@ -44,3 +44,4 @@ This generalizes to any single-writer stateful service migration — databases, 
 - [Never Read Secret Values Into Agent Context](../conventions/never-expose-secrets-to-agent-context.md) — adjacent secrets-handling rule: don't expose real secrets to context; this lesson adds don't fabricate one either
 - [Smoke-Test the Parts You Can](../conventions/smoke-test-parts-you-can.md) — same "verify with a real check, not just config review" principle applied to routing changes
 - [Quarantine a Destructive Script the Moment Its Blind Spot Is Found](quarantine-destructive-scripts-immediately.md) — same "act on a discovered risk immediately" theme
+- [Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default](debug-print-secret-leak.md) — same "don't expose a live secret" concern via a different vector (printing a helper's return value), plus a matching shared-namespace-isolation lesson
