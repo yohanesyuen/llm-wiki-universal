@@ -143,3 +143,8 @@
 - Updated: [A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope](lessons-learned/guard-scope-vs-verbal-override.md)
 - Updated: [Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs](lessons-learned/destructive-op-confirmation-and-background-jobs.md)
 - Updated: [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](lessons-learned/worktree-liveness-check-before-destructive-cleanup.md)
+
+## [2026-07-07] lint | 2 issues found, 2 auto-fixed
+- Added: Memory Backlinks check to karpathy-llm-wiki SKILL.md Heuristic Checks
+- Fixed: ~/.claude/memory/feedback_prompt_cache_invalidates_subagent_experiments.md missing Wiki: link
+- Fixed: ~/.claude/memory/feedback_daemon_thread_needs_join.md missing Wiki: link
