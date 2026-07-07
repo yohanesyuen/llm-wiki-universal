@@ -4,7 +4,7 @@ tags: [ui, css, debugging, root-cause, testing]
 Title: Root-Cause UI Bugs to the Shared Primitive Behind Them, Not the Symptom Where They Appear
 Sources: Session reflection, 2026-07-06
 Raw: "[../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
-Updated: 2026-07-06
+Updated: 2026-07-07
 ---
 
 # Root-Cause UI Bugs to the Shared Primitive Behind Them, Not the Symptom Where They Appear
@@ -35,3 +35,4 @@ Typecheck and build passing was not sufficient to confirm either fix — only an
 ## See Also
 
 - [Parallel Agent Waves Need a Build Gate, Not Just a Type Check](parallel-agent-build-gate.md) — same "a green type-check/build is not sufficient proof" theme, applied to build correctness rather than visual correctness
+- [Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join](fire-and-forget-thread-needs-bounded-join.md) — same "no error thrown is not proof of success" theme, applied to a silently-dropped background log delivery instead of a visual regression

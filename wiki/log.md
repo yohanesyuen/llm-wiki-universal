@@ -1,5 +1,19 @@
 # Wiki Log
 
+## [2026-07-07] ingest | [Prompt Caching Can Invalidate "Fresh Session" A/B Experiments](lessons-learned/prompt-caching-invalidates-fresh-session-experiments.md)
+- Created: [Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join](lessons-learned/fire-and-forget-thread-needs-bounded-join.md)
+- Created: [Use `curl --data @file` for Payloads with Shell-Special Characters](conventions/curl-payload-temp-file-for-special-chars.md)
+- Created: [Standing Rules Get Sharper Through Live Pushback, Not First-Draft Phrasing](conventions/standing-rules-sharpen-through-pushback.md)
+- Updated: [Real Timestamps Beat File-Modification Timestamps for Falsifiable Claims](lessons-learned/real-timestamps-for-falsifiable-claims.md)
+- Updated: [Session Tool Efficiency](lessons-learned/session-tool-efficiency.md)
+- Updated: [Root-Cause UI Bugs to the Shared Primitive Behind Them](lessons-learned/root-cause-shared-styling-primitives.md)
+- Updated: [Hook Authoring Discipline](lessons-learned/hook-authoring-discipline.md)
+- Updated: [Wiki Ingest and Cleanup Discipline](lessons-learned/wiki-ingest-and-cleanup-discipline.md)
+
+## [2026-07-06] ingest | [Git History Scrubbing Has Two Leak Surfaces; a Moved Mount Isn't Done Until the Consumer Restarts](lessons-learned/git-history-scrubbing-and-mount-verification.md)
+- Updated: [No Confidential Information in Code or Git History](conventions/no-confidential-leak.md)
+- Updated: [Smoke-Test the Parts You Can](conventions/smoke-test-parts-you-can.md)
+
 ## [2026-07-06] ingest | [A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope](lessons-learned/guard-scope-vs-verbal-override.md)
 - Created: [Root-Cause UI Bugs to the Shared Primitive Behind Them](lessons-learned/root-cause-shared-styling-primitives.md)
 - Updated: [Feature-Branch Git Workflow for AI-Assisted Development](conventions/feature-branch-git-workflow.md)
@@ -123,3 +137,9 @@
 - Updated: [Never Read Secret Values Into Agent Context](conventions/never-expose-secrets-to-agent-context.md)
 - Updated: [Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs](lessons-learned/destructive-op-confirmation-and-background-jobs.md)
 - Updated: [Layer-Boundary Config Bugs and Staged Service Cutover](lessons-learned/layer-boundary-configs-and-staged-cutover.md)
+
+## [2026-07-06] ingest | [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](lessons-learned/concurrent-session-shared-file-collision.md)
+- Updated: [Layer-Boundary Config Bugs and Staged Service Cutover](lessons-learned/layer-boundary-configs-and-staged-cutover.md)
+- Updated: [A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope](lessons-learned/guard-scope-vs-verbal-override.md)
+- Updated: [Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs](lessons-learned/destructive-op-confirmation-and-background-jobs.md)
+- Updated: [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](lessons-learned/worktree-liveness-check-before-destructive-cleanup.md)

@@ -4,7 +4,7 @@ tags: [timestamps, evidence, cross-referencing]
 Title: Real Timestamps Beat File-Modification Timestamps for Falsifiable Claims
 Sources: Session reflection, 2026-07-03
 Raw: "[../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
-Updated: 2026-07-03
+Updated: 2026-07-07
 ---
 
 # Real Timestamps Beat File-Modification Timestamps for Falsifiable Claims
@@ -26,3 +26,4 @@ Whenever a claim needs to be falsifiable — especially "this was used after tha
 ## See Also
 
 - [Self-Deleting Instruction Injection](self-deleting-instruction-injection.md) — another discipline from the same session focused on getting one-shot mechanics right
+- [Prompt Caching Can Invalidate "Fresh Session" A/B Experiments](prompt-caching-invalidates-fresh-session-experiments.md) — same family of lesson: anchor a before/after claim to a signal that can't be silently stale, this time the raw token-usage block instead of a file mtime

@@ -4,7 +4,7 @@ tags: [wiki, knowledge-management, hygiene]
 Title: Wiki Ingest and Cleanup Discipline
 Sources: Session reflection, 2026-06-27
 Raw: "[../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md](../../raw/lessons-learned/2026-06-27-universal-wiki-setup.md)"
-Updated: 2026-07-04
+Updated: 2026-07-07
 ---
 
 # Wiki Ingest and Cleanup Discipline
@@ -34,3 +34,4 @@ When a session modifies a skill, rule, or reference that is itself cited elsewhe
 ## See Also
 
 - [Wiki Automation Gaps Found by Comparing Against a Reference Implementation](wiki-automation-gaps-vs-reference-implementation.md) — pipeline-level gaps (lint, retopology, single-machine bottleneck) complementing these per-ingest rules
+- [Standing Rules Get Sharper Through Live Pushback, Not First-Draft Phrasing](../conventions/standing-rules-sharpen-through-pushback.md) — same "the first version is a draft, iterate on real use" pattern applied to CLAUDE.md rules rather than wiki compilation

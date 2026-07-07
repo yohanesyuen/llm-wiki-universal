@@ -2,7 +2,7 @@
 Title: Hook Authoring Discipline
 Sources: Session reflection, 2026-06-29; Session reflection, 2026-07-04
 Raw: "[../../raw/lessons-learned/2026-06-29-hook-authoring-discipline.md](../../raw/lessons-learned/2026-06-29-hook-authoring-discipline.md); [../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
-Updated: 2026-07-04
+Updated: 2026-07-07
 type: article
 ---
 
@@ -50,6 +50,7 @@ Lessons from wiring a PreToolUse wiki-index-lookup hook and a Stop corrections-d
 - [Allowlist Audit and Session Hygiene](allowlist-audit-and-session-hygiene.md) — Stop hooks as session-end triggers
 - [Wiki Ingest and Cleanup Discipline](wiki-ingest-and-cleanup-discipline.md) — when to use the wiki vs. other storage
 - [Confirm Scope Before Building Automation; Gate Anything Self-Modifying](../conventions/scope-before-autonomous-automation.md) — confirm a hook's trigger scope, and gate anything self-modifying, before wiring it into config
+- [Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join](fire-and-forget-thread-needs-bounded-join.md) — a hook-specific silent-failure mode: a daemon thread racing process exit dropped 100% of log deliveries with no error surfaced
 
 ---
 

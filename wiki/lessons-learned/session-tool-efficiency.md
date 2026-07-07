@@ -4,7 +4,7 @@ tags: [session, context-efficiency]
 Title: Session Tool Efficiency
 Sources: Session reflection, 2026-06-28
 Raw: "[../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md](../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md); [../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md](../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md)"
-Updated: 2026-06-28
+Updated: 2026-07-07
 ---
 
 # Session Tool Efficiency
@@ -27,3 +27,7 @@ Choosing the wrong tool is mostly a style issue for short files, but for long fi
 ## Rejected tool calls leave files unchanged
 
 When the user rejects an Edit or Write, the file is completely unmodified — the rejection is total, not partial. Don't chain a follow-up edit on top of a rejected one assuming any part of it landed. If unsure about the current file state after a rejection, re-read it before proceeding.
+
+## See Also
+
+- [Prompt Caching Can Invalidate "Fresh Session" A/B Experiments](prompt-caching-invalidates-fresh-session-experiments.md) — the same "Wasted call" dedupe behavior on a redundant Read masked a broken token-usage experiment; a related but distinct silent-reuse failure mode showed up one layer down, at the model-call cache level
