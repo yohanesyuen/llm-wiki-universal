@@ -2,7 +2,7 @@
 type: concept
 tags: [knowledge-management, specification]
 title: Open Knowledge Format (OKF)
-updated: 2026-06-28
+updated: 2026-07-08
 sources: GoogleCloudPlatform/knowledge-catalog; Unknown date
 raw: "[2026-06-28-open-knowledge-format-spec.md](../../raw/knowledge-formats/2026-06-28-open-knowledge-format-spec.md)"
 ---
@@ -57,3 +57,4 @@ This wiki's own structure mirrors OKF closely: markdown files with YAML-style fr
 ## See Also
 
 - [Wiki Ingest and Cleanup Discipline](../lessons-learned/wiki-ingest-and-cleanup-discipline.md)
+- [Deterministic Compiler vs. Agent-Driven Wiki Architecture](deterministic-compiler-vs-agent-wiki.md) — a deterministic parser/compiler pipeline could target OKF-conformant bundles directly for the mechanical layer (link/orphan checks), while merge and conflict-annotation decisions stay agent-driven

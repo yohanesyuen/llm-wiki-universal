@@ -47,7 +47,8 @@ Specifications and standards for representing and distributing structured knowle
 
 | Article | Summary | Updated |
 |---|---|---|
-| [Open Knowledge Format (OKF)](knowledge-formats/open-knowledge-format.md) | Markdown files + YAML frontmatter as the distribution unit for machine- and human-readable knowledge bundles; covers structure, fields, cross-linking, conformance, and distribution | 2026-06-28 |
+| [Open Knowledge Format (OKF)](knowledge-formats/open-knowledge-format.md) | Markdown files + YAML frontmatter as the distribution unit for machine- and human-readable knowledge bundles; covers structure, fields, cross-linking, conformance, and distribution | 2026-07-08 |
+| [Deterministic Compiler vs. Agent-Driven Wiki Architecture](knowledge-formats/deterministic-compiler-vs-agent-wiki.md) | Parser-based compilers beat LLM agents on cost/speed/reproducibility for mechanical wiki maintenance (link graphs, lint), but can't do semantic merge/conflict judgment calls | 2026-07-08 |
 
 ## conventions
 Operating rules and confidentiality requirements.
