@@ -1,5 +1,8 @@
 # Wiki Log
 
+## [2026-07-08] ingest | [Deterministic Compiler vs. Agent-Driven Wiki Architecture](knowledge-formats/deterministic-compiler-vs-agent-wiki.md)
+- Updated: [Open Knowledge Format (OKF)](knowledge-formats/open-knowledge-format.md)
+
 ## [2026-07-07] ingest | [Prompt Caching Can Invalidate "Fresh Session" A/B Experiments](lessons-learned/prompt-caching-invalidates-fresh-session-experiments.md)
 - Created: [Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join](lessons-learned/fire-and-forget-thread-needs-bounded-join.md)
 - Created: [Use `curl --data @file` for Payloads with Shell-Special Characters](conventions/curl-payload-temp-file-for-special-chars.md)
