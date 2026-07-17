@@ -4,7 +4,7 @@ tags: [git, worktree, concurrency, multi-agent, hooks, testing]
 Title: Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check
 Sources: Session reflection, 2026-07-05
 Raw: "[../../raw/lessons-learned/2026-07-05-worktree-cleanup-collision.md](../../raw/lessons-learned/2026-07-05-worktree-cleanup-collision.md)"
-Updated: 2026-07-05
+Updated: 2026-07-08
 ---
 
 # Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check
@@ -34,3 +34,5 @@ Before wiring a new destructive-action hook into live configuration, a throwaway
 - [Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default](debug-print-secret-leak.md) — from the same session; a secret-scan hook flagged legitimate credential-adjacent code, reinforcing that false positives cluster around security-sensitive code precisely where a human is already inclined to double-check
 - [Quarantine a Destructive Script the Moment Its Blind Spot Is Found](quarantine-destructive-scripts-immediately.md) — same "destructive automation has a blind spot" theme, from an earlier incident
 - [A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope](guard-scope-vs-verbal-override.md) — from the following day's session; a verbal override of this same worktree-isolation guard only covered a subset of the actions it gates
+- [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](concurrent-session-shared-file-collision.md) — same family of multi-agent-on-shared-state gaps, this time a config file instead of a worktree, resolved by a claim-before-edit signal instead of a liveness check
+- [Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit](worktree-isolation-untracked-files-and-shell-hook-race.md) — same worktree-isolation mechanism hitting a different limit: a trackedness gap during setup rather than a liveness gap during cleanup

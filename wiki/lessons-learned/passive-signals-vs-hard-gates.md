@@ -2,7 +2,7 @@
 Title: Passive Signals vs Hard Gates
 Sources: Session reflection, 2026-06-29
 Raw: "[../../raw/lessons-learned/2026-06-29-passive-signals-vs-hard-gates.md](../../raw/lessons-learned/2026-06-29-passive-signals-vs-hard-gates.md)"
-Updated: 2026-06-29
+Updated: 2026-07-17
 type: article
 ---
 
@@ -40,6 +40,10 @@ Gate scope should match constraint scope precisely. A privacy gate on public rep
 
 Regex patterns in blocking gates must be tight. Overly broad patterns (e.g., matching any sequence of hyphenated words) will block legitimate content — wiki filenames, article slugs, cross-references — producing false positives that erode trust in the gate. Test every gate pattern against representative clean content before wiring it into settings.
 
+## A Denial Isn't Necessarily a Permanent Wall
+
+`permissionDecision: "deny"` blocks the specific evaluated call every time it's evaluated as-is — that part of the hard-gate framing holds. But a safety/permission classifier's decision can incorporate recent conversational context, not just the isolated command: the same low-level action denied once has been observed to succeed on retry after the user pushed back with explicit, forceful re-confirmation, with no code or pattern change in between. Treat a denial as final for the *current* context — stop, explain the concern plainly, and let the human decide — but a genuinely re-confirmed retry is a new evaluation, not a bypass of the old one, and is reasonable to attempt.
+
 ## Tips & Tricks
 
 - **Tip**: `permissionDecision: "deny"` with a `permissionDecisionReason` is the correct output shape for a blocking `PreToolUse` hook. The reason is surfaced to the model, not just logged.
@@ -50,6 +54,7 @@ Regex patterns in blocking gates must be tight. Overly broad patterns (e.g., mat
 
 - [Hook Authoring Discipline](hook-authoring-discipline.md) — mechanics of writing and migrating hooks
 - [Allowlist Audit and Session Hygiene](allowlist-audit-and-session-hygiene.md) — Stop hooks as session-end triggers
+- [Verify a Settings Knob Covers the Real Mechanism; Disclose a Vendored Patch's Fragility Up Front; State a Telemetry Window](config-fix-diligence-and-classifier-retry.md) — the retry-after-re-confirmation nuance in full, plus adjacent config-fix diligence habits
 
 ---
 

@@ -148,3 +148,41 @@
 - Added: Memory Backlinks check to karpathy-llm-wiki SKILL.md Heuristic Checks
 - Fixed: ~/.claude/memory/feedback_prompt_cache_invalidates_subagent_experiments.md missing Wiki: link
 - Fixed: ~/.claude/memory/feedback_daemon_thread_needs_join.md missing Wiki: link
+
+## [2026-07-08] ingest | [Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit](lessons-learned/worktree-isolation-untracked-files-and-shell-hook-race.md)
+- Updated: [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](lessons-learned/worktree-liveness-check-before-destructive-cleanup.md)
+- Updated: [A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope](lessons-learned/guard-scope-vs-verbal-override.md)
+- Updated: [Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join](lessons-learned/fire-and-forget-thread-needs-bounded-join.md)
+- Updated: [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](lessons-learned/concurrent-session-shared-file-collision.md)
+
+## [2026-07-17] ingest | [Verify a System's Deeper Invariant Before Building On It; Validate a Debugger's Signal Against a Known-Good Baseline](lessons-learned/verify-invariants-and-validate-debugging-signals.md)
+
+## [2026-07-17] ingest | [Flag Each Surprising Field Separately; Read the Real Interface Before Extending It](lessons-learned/flag-fields-and-read-real-interfaces.md)
+- Updated: [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](lessons-learned/concurrent-session-shared-file-collision.md)
+
+## [2026-07-17] ingest | [Verify a Credential's Environment and a Script's Own Safety Claims Independently](lessons-learned/verify-environment-and-safety-claims.md)
+
+## [2026-07-14] ingest | [When a Worktree-Isolation Guard Blocks Write/Edit, Reach for a Bash Heredoc First](lessons-learned/bgisolation-write-edit-workaround.md)
+
+## [2026-07-17] ingest | [Calibrating When and How to Ask — Structured Choices Fit Stable Ambiguity, Not Unstable Intent](lessons-learned/calibrating-when-to-ask.md)
+
+## [2026-07-12] ingest | [A Test That Passes Against an Unimplemented Stub Is a Smell; Codify a Repeated Workflow the Moment It Repeats](lessons-learned/stub-test-smell-and-workflow-codification.md)
+
+## [2026-07-12] ingest | [Resolve Targets Directly, Don't Infer From a Manifest; Test Through a System's Own API, Not a Generic External One](lessons-learned/resolve-targets-test-through-own-api.md)
+- Updated: [Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join](lessons-learned/fire-and-forget-thread-needs-bounded-join.md)
+
+## [2026-07-17] ingest | [Stale In-Context File State Is Indistinguishable From a Hallucination — Re-Read Before Asserting or Editing](lessons-learned/stale-mutable-state-reread-discipline.md)
+- Updated: [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](lessons-learned/concurrent-session-shared-file-collision.md)
+
+## [2026-07-10] ingest | [Probe a Live Runtime Instead of Theorizing; Key a Cache by Entity, Not by a Shared Evicting Scope](lessons-learned/empirical-probe-runtime-and-cache-isolation-design.md)
+
+## [2026-07-10] ingest | [A Documented Default Path Is a Claim, Not a Fact — A Schema/Ingestion Audit Checklist](lessons-learned/schema-and-ingestion-audit-checklist.md)
+
+## [2026-07-10] ingest | [A New Parameter Is a Data-Flow Change, Not a Signature Change; Filter Every Structure the Record Leaks Into](lessons-learned/threading-parameters-and-filter-design.md)
+
+## [2026-07-09] ingest | [Verify a Subagent Handoff Actually Chains; Query the Structured Log for Live Metrics, Don't Estimate](lessons-learned/verify-subagent-handoffs-and-query-structured-logs.md)
+
+## [2026-07-08] ingest | [Verify a Settings Knob Covers the Real Mechanism; Disclose a Vendored Patch's Fragility Up Front; State a Telemetry Window](lessons-learned/config-fix-diligence-and-classifier-retry.md)
+- Updated: [Passive Signals vs Hard Gates](lessons-learned/passive-signals-vs-hard-gates.md)
+
+## [2026-07-17] backlog-note | 9 raw lessons-learned files skipped as already-covered by existing articles (same session content, different filename): 2026-07-06-cloud-storage-api-consumer (→ api-capability-probing-and-plausible-wrong-values.md), 2026-07-06-cross-session-repo-cleanup (→ git-history-scrubbing-and-mount-verification.md), 2026-07-05-worktree-cleanup-collision (→ worktree-liveness-check-before-destructive-cleanup.md), 2026-07-04-agent-hooks-and-guardrails (→ fork-resumption-follow-up-unreliable.md, scope-before-autonomous-automation.md, hook-authoring-discipline.md, feature-branch-git-workflow.md, chained-command-denial-blocks-whole-chain.md), 2026-07-04-docker-nginx-auth-cutover (→ layer-boundary-configs-and-staged-cutover.md), 2026-07-03-corpus-cleanup-and-reindex (→ real-timestamps-for-falsifiable-claims.md, self-deleting-instruction-injection.md, destructive-op-confirmation-and-background-jobs.md, quarantine-destructive-scripts-immediately.md), 2026-06-28-mcp-conversion-eval (→ capability-gap-before-infrastructure-eval.md), 2026-06-28-file-state-tracking-and-readme-authoring (→ session-tool-efficiency.md, public-repo-setup-discipline.md), 2026-06-27-universal-wiki-setup (→ wiki-ingest-and-cleanup-discipline.md). conventions/2026-07-03-varlock-claude-skill-secure-env-vars.md also skipped — already the cited Raw source of conventions/never-expose-secrets-to-agent-context.md.

@@ -4,7 +4,7 @@ tags: [guardrails, hooks, worktree, git, automation]
 Title: A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope
 Sources: Session reflection, 2026-07-06
 Raw: "[../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
-Updated: 2026-07-06
+Updated: 2026-07-08
 ---
 
 # A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope
@@ -32,3 +32,5 @@ Both observations are instances of the same principle: **a guard's enforcement s
 - [Confirm Scope Before Building Automation; Gate Anything Self-Modifying](../conventions/scope-before-autonomous-automation.md) — same theme of guard/automation scope needing explicit confirmation, from the builder's side rather than the operator's side
 - [Passive Signals vs Hard Gates](passive-signals-vs-hard-gates.md) — a hard gate cannot be talked past by an advisory statement; both guards described here are hard gates that need the right-shaped, explicit signal, not just any prior mention, before a sensitive action proceeds
 - [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](worktree-liveness-check-before-destructive-cleanup.md) — same worktree-guard subject area, from the prior day's session, covering a different gap (no cross-session liveness signal) in the same guard family
+- [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](concurrent-session-shared-file-collision.md) — same "broad statement doesn't cover a specific guarded action" pattern, this time applied to a delegated-authority statement rather than a guard override
+- [Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit](worktree-isolation-untracked-files-and-shell-hook-race.md) — same worktree-isolation guard family, this time hitting a trackedness limit rather than an override-scope limit
