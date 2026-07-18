@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-07-19] lint | 2 issues found, 16 auto-fixed
+- Auto-fixed: added missing index.md entry for [Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit](lessons-learned/worktree-isolation-untracked-files-and-shell-hook-race.md)
+- Auto-fixed: appended `Wiki:` memory backlinks for 15 high-confidence matches in ~/.claude/memory/ (feedback_audit_log_trace_before_code, feedback_browser_automation_false_positive, feedback_bundle_budget_before_migration, feedback_db_gated_tests_checkbox_not_proof, feedback_dry_run_independent_verification, feedback_flag_unexpected_fields_separately, feedback_isolated_worktree_push_concurrent_session, feedback_migration_before_push_causes_outage, feedback_shell_rc_debug_false_positive, feedback_stale_clarifying_question_resumption, feedback_toggle_at_bundler_boundary, feedback_vendor_lib_source_before_patch, feedback_verify_contract_before_bug_claim, feedback_verify_db_env_before_writes, feedback_workflow_dogfood_self_use_and_status_updates)
+- Reported (no auto-fix, heuristic): ~25 orphan wiki pages with no inbound See-Also/body links from other articles (mostly standalone conventions/ entries plus several 2026-07-19-batch lessons-learned articles not yet cross-referenced)
+- Reported (no auto-fix, low-confidence memory matches): feedback_concurrent_edit_reverify_fresh.md and feedback_concurrent_file_edit_reload.md have plausible but non-exact overlapping wiki candidates (stale-mutable-state-reread-discipline.md, concurrent-session-shared-file-collision.md) — left unlinked per "multiple plausible matches" rule
+
 ## [2026-07-19] ingest | 14 articles compiled from 12 previously-uncompiled raw lessons-learned files (2026-07-17/07-18 batch)
 - Created: [A "Grant/Revoke" Field Must Be Derived From Both Sides of a Transition, Never One](lessons-learned/derive-transition-fields-from-before-after-diff.md) (raw: 2026-07-17-audit-log-classification-bug.md)
 - Created: [Statutory and Legal Figures Need a Live Citation, Not Recalled Confidence](lessons-learned/verify-statutory-legal-claims-live.md) (raw: 2026-07-17-statutory-fact-hallucination.md)
