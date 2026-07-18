@@ -1,5 +1,21 @@
 # Wiki Log
 
+## [2026-07-19] ingest | 14 articles compiled from 12 previously-uncompiled raw lessons-learned files (2026-07-17/07-18 batch)
+- Created: [A "Grant/Revoke" Field Must Be Derived From Both Sides of a Transition, Never One](lessons-learned/derive-transition-fields-from-before-after-diff.md) (raw: 2026-07-17-audit-log-classification-bug.md)
+- Created: [Statutory and Legal Figures Need a Live Citation, Not Recalled Confidence](lessons-learned/verify-statutory-legal-claims-live.md) (raw: 2026-07-17-statutory-fact-hallucination.md)
+- Created: [Check Bundle Budget as Part of the Initial Library Comparison, Not After Implementation](lessons-learned/bundle-budget-check-before-library-migration.md) + [Toggle at the Bundler's Code-Splitting Boundary for a Reversible Migration](lessons-learned/toggle-at-bundler-code-splitting-boundary.md) (raw: 2026-07-18-bundle-size-verification-pluggable-fallback.md, split into two articles)
+- Created: [An "Is the Variable Still Defined" Check Proves Nothing If the Script Deliberately Deletes It](lessons-learned/shell-rc-absence-check-and-quoting-hazards.md) (raw: 2026-07-18-debugging-shell-rc-false-positives.md)
+- Created: [A Request Built on a False Premise Deserves a Correction, Not Silent Compliance or Refusal](lessons-learned/false-premise-scoping-and-diff-before-git-reconcile.md) (raw: 2026-07-18-evidence-based-scoping-and-concurrent-git-conflicts.md)
+- Created: [Reason About the Worst-Case Node Before Running a Bulk Rollup; Search for Prior Art Before Building a Second Implementation](lessons-learned/rollup-safety-reasoning-and-check-for-prior-art.md) + [Browser Automation False Positives Look Exactly Like Confirmed Bugs](lessons-learned/browser-automation-false-positive.md) (raw: 2026-07-18-hierarchical-status-rollup-tooling.md, split into two articles)
+- Created: [A Tool's Success Message Describes Intent, Not Effect — Diff the Actual Before/After](lessons-learned/verify-mutating-tool-diffs-not-success-messages.md) (raw: 2026-07-18-managed-block-trust-and-drift-detection.md)
+- Created: [A Subagent's Self-Report Is a Claim, Not a Verification](lessons-learned/subagent-self-report-is-not-verification.md) (raw: 2026-07-18-multi-agent-workflow-verification.md)
+- Created: [Check Whether the Spec Already Documents a Behavior as Intentional Before Calling It a Bug](lessons-learned/check-spec-before-calling-it-a-bug.md) (raw: 2026-07-18-pm-audit-fix-handoff.md)
+- Created: [A Destructive Live Migration and Its Matching Code Deploy Are One Atomic Unit](lessons-learned/migration-deploy-atomicity-and-real-data-default.md) (raw: 2026-07-18-schema-migration-sequencing-and-real-data-preference.md)
+- Created: [A Rejected Clarifying Question Doesn't Stay "Live" Context Across a Topic Shift](lessons-learned/stale-clarifying-question-resumption.md) (raw: 2026-07-18-stale-context-and-live-verification.md)
+- Created: [Grep the Vendor's Compiled Source for Real Event Wiring Before Guessing at a Fix](lessons-learned/vendor-source-diagnosis-and-isolated-worktree-push.md) (raw: 2026-07-18-vendor-lib-source-diagnosis-isolated-push.md)
+- Cross-linked new articles against existing related lessons-learned entries (verify-invariants-and-validate-debugging-signals, verify-subagent-handoffs-and-query-structured-logs, fork-resumption-follow-up-unreliable, calibrating-when-to-ask, stale-mutable-state-reread-discipline, schema-and-ingestion-audit-checklist, macos-sed-word-boundary, worktree-liveness-check-before-destructive-cleanup, concurrent-session-shared-file-collision, guard-scope-vs-verbal-override, layer-boundary-configs-and-staged-cutover, verify-install-commands-from-docs, resolve-targets-test-through-own-api) — existing articles themselves not modified, only new articles' See Also sections
+- Updated: `wiki/index.md` (14 new rows added to lessons-learned)
+
 ## [2026-07-07] ingest | [Prompt Caching Can Invalidate "Fresh Session" A/B Experiments](lessons-learned/prompt-caching-invalidates-fresh-session-experiments.md)
 - Created: [Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join](lessons-learned/fire-and-forget-thread-needs-bounded-join.md)
 - Created: [Use `curl --data @file` for Payloads with Shell-Special Characters](conventions/curl-payload-temp-file-for-special-chars.md)
