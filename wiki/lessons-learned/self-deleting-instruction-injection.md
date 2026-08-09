@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [pattern, cross-session, config, automation]
-Title: Self-Deleting Instruction Injection
-Sources: Session reflection, 2026-07-03
-Raw: "[../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
-Updated: 2026-07-03
+title: Self-Deleting Instruction Injection
+sources: Session reflection, 2026-07-03
+raw: "[../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
+updated: 2026-07-03
 ---
 
 # Self-Deleting Instruction Injection

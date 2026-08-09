@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [shell, permissions, tooling]
-Title: A Denied Command Inside a Chained Shell Call Blocks the Whole Chain
-Sources: Session reflection, 2026-07-04
-Raw: "[../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
-Updated: 2026-07-04
+title: A Denied Command Inside a Chained Shell Call Blocks the Whole Chain
+sources: Session reflection, 2026-07-04
+raw: "[../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
+updated: 2026-07-04
 ---
 
 # A Denied Command Inside a Chained Shell Call Blocks the Whole Chain

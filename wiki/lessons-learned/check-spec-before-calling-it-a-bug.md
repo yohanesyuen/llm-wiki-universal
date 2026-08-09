@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [audit, spec-compliance, subagent-verification, handoff]
-Title: Check Whether the Spec Already Documents a Behavior as Intentional Before Calling It a Bug
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-pm-audit-fix-handoff.md](../../raw/lessons-learned/2026-07-18-pm-audit-fix-handoff.md)"
-Updated: 2026-07-19
+title: Check Whether the Spec Already Documents a Behavior as Intentional Before Calling It a Bug
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-pm-audit-fix-handoff.md](../../raw/lessons-learned/2026-07-18-pm-audit-fix-handoff.md)"
+updated: 2026-07-19
 ---
 
 # Check Whether the Spec Already Documents a Behavior as Intentional Before Calling It a Bug

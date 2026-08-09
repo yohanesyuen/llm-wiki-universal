@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [scoping, self-critique, git, concurrent-editing]
-Title: A Request Built on a False Premise Deserves a Correction, Not Silent Compliance or Refusal
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-evidence-based-scoping-and-concurrent-git-conflicts.md](../../raw/lessons-learned/2026-07-18-evidence-based-scoping-and-concurrent-git-conflicts.md)"
-Updated: 2026-07-19
+title: A Request Built on a False Premise Deserves a Correction, Not Silent Compliance or Refusal
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-evidence-based-scoping-and-concurrent-git-conflicts.md](../../raw/lessons-learned/2026-07-18-evidence-based-scoping-and-concurrent-git-conflicts.md)"
+updated: 2026-07-19
 ---
 
 # A Request Built on a False Premise Deserves a Correction, Not Silent Compliance or Refusal

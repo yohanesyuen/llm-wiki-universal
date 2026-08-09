@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [tooling, macos, shell, sed, regex]
-Title: macOS BSD sed Does Not Support \b Word Boundaries
-Sources: Session reflection, 2026-06-30
-Raw: "[../../raw/lessons-learned/2026-06-30-macos-sed-word-boundary.md](../../raw/lessons-learned/2026-06-30-macos-sed-word-boundary.md)"
-Updated: 2026-06-30
+title: macOS BSD sed Does Not Support \b Word Boundaries
+sources: Session reflection, 2026-06-30
+raw: "[../../raw/lessons-learned/2026-06-30-macos-sed-word-boundary.md](../../raw/lessons-learned/2026-06-30-macos-sed-word-boundary.md)"
+updated: 2026-06-30
 ---
 
 # macOS BSD sed Does Not Support \b Word Boundaries

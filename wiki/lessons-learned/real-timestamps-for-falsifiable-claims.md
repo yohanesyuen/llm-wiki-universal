@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [timestamps, evidence, cross-referencing]
-Title: Real Timestamps Beat File-Modification Timestamps for Falsifiable Claims
-Sources: Session reflection, 2026-07-03
-Raw: "[../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
-Updated: 2026-07-07
+title: Real Timestamps Beat File-Modification Timestamps for Falsifiable Claims
+sources: Session reflection, 2026-07-03
+raw: "[../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
+updated: 2026-07-07
 ---
 
 # Real Timestamps Beat File-Modification Timestamps for Falsifiable Claims

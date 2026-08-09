@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [documentation, hygiene, git]
-Title: Grep Docs for Stale References After Any Removal Commit
-Sources: session-reflection, 2026-06-25
-Raw: "[../../raw/conventions/grep-docs-after-removal.md](../../raw/conventions/grep-docs-after-removal.md)"
-Updated: 2026-06-27
+title: Grep Docs for Stale References After Any Removal Commit
+sources: session-reflection, 2026-06-25
+raw: "[../../raw/conventions/grep-docs-after-removal.md](../../raw/conventions/grep-docs-after-removal.md)"
+updated: 2026-06-27
 ---
 
 # Grep Docs for Stale References After Any Removal Commit

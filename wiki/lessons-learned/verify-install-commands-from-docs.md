@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [tooling, docs, llm, cli]
-Title: Verify CLI Install Commands from Official Docs
-Sources: Session reflection, 2026-06-29
-Raw: "[../../raw/lessons-learned/2026-06-29-verify-cli-install-from-docs.md](../../raw/lessons-learned/2026-06-29-verify-cli-install-from-docs.md)"
-Updated: 2026-06-29
+title: Verify CLI Install Commands from Official Docs
+sources: Session reflection, 2026-06-29
+raw: "[../../raw/lessons-learned/2026-06-29-verify-cli-install-from-docs.md](../../raw/lessons-learned/2026-06-29-verify-cli-install-from-docs.md)"
+updated: 2026-06-29
 ---
 
 # Verify CLI Install Commands from Official Docs

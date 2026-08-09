@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [agents, forking, context-window, efficiency]
-Title: Don't Peek at a Fork's output_file
-Sources: superpowers/using-superpowers skill, 2026-06-30
-Raw: "[../../raw/lessons-learned/2026-06-30-dont-peek-at-fork-output.md](../../raw/lessons-learned/2026-06-30-dont-peek-at-fork-output.md)"
-Updated: 2026-06-30
+title: Don't Peek at a Fork's output_file
+sources: superpowers/using-superpowers skill, 2026-06-30
+raw: "[../../raw/lessons-learned/2026-06-30-dont-peek-at-fork-output.md](../../raw/lessons-learned/2026-06-30-dont-peek-at-fork-output.md)"
+updated: 2026-06-30
 ---
 
 # Don't Peek at a Fork's output_file

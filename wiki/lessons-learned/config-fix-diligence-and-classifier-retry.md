@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [safety-classifiers, config, hooks, telemetry]
-Title: Verify a Settings Knob Covers the Real Mechanism; Disclose a Vendored Patch's Fragility Up Front; State a Telemetry Window
-Sources: Session reflection, 2026-07-08
-Raw: "[../../raw/lessons-learned/2026-07-08-hook-patching-and-classifier-retry.md](../../raw/lessons-learned/2026-07-08-hook-patching-and-classifier-retry.md)"
-Updated: 2026-07-08
+title: Verify a Settings Knob Covers the Real Mechanism; Disclose a Vendored Patch's Fragility Up Front; State a Telemetry Window
+sources: Session reflection, 2026-07-08
+raw: "[../../raw/lessons-learned/2026-07-08-hook-patching-and-classifier-retry.md](../../raw/lessons-learned/2026-07-08-hook-patching-and-classifier-retry.md)"
+updated: 2026-07-08
 ---
 
 # Verify a Settings Knob Covers the Real Mechanism; Disclose a Vendored Patch's Fragility Up Front; State a Telemetry Window

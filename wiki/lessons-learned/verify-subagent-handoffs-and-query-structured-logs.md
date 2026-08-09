@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [subagents, observability, orchestration]
-Title: Verify a Subagent Handoff Actually Chains; Query the Structured Log for Live Metrics, Don't Estimate
-Sources: Session reflection, 2026-07-09
-Raw: "[../../raw/lessons-learned/2026-07-09-parallel-subagent-ingest.md](../../raw/lessons-learned/2026-07-09-parallel-subagent-ingest.md)"
-Updated: 2026-07-09
+title: Verify a Subagent Handoff Actually Chains; Query the Structured Log for Live Metrics, Don't Estimate
+sources: Session reflection, 2026-07-09
+raw: "[../../raw/lessons-learned/2026-07-09-parallel-subagent-ingest.md](../../raw/lessons-learned/2026-07-09-parallel-subagent-ingest.md)"
+updated: 2026-07-09
 ---
 
 # Verify a Subagent Handoff Actually Chains; Query the Structured Log for Live Metrics, Don't Estimate

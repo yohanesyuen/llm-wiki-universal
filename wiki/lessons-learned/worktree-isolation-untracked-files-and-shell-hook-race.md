@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [git, worktree, untracked-files, shell-hooks, race-condition, verification]
-Title: Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit
-Sources: Session reflection, 2026-07-08
-Raw: "[../../raw/lessons-learned/2026-07-08-worktree-isolation-and-background-refresh-race.md](../../raw/lessons-learned/2026-07-08-worktree-isolation-and-background-refresh-race.md)"
-Updated: 2026-07-08
+title: Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit
+sources: Session reflection, 2026-07-08
+raw: "[../../raw/lessons-learned/2026-07-08-worktree-isolation-and-background-refresh-race.md](../../raw/lessons-learned/2026-07-08-worktree-isolation-and-background-refresh-race.md)"
+updated: 2026-07-08
 ---
 
 # Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit

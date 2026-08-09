@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [git, worktree, concurrency, multi-agent, hooks, testing]
-Title: Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check
-Sources: Session reflection, 2026-07-05
-Raw: "[../../raw/lessons-learned/2026-07-05-worktree-cleanup-collision.md](../../raw/lessons-learned/2026-07-05-worktree-cleanup-collision.md)"
-Updated: 2026-07-08
+title: Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check
+sources: Session reflection, 2026-07-05
+raw: "[../../raw/lessons-learned/2026-07-05-worktree-cleanup-collision.md](../../raw/lessons-learned/2026-07-05-worktree-cleanup-collision.md)"
+updated: 2026-07-08
 ---
 
 # Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check

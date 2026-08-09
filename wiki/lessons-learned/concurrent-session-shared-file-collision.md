@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [concurrency, multi-agent, coordination, incident, authorization]
-Title: A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap
-Sources: Session reflection, 2026-07-06
-Raw: "[../../raw/lessons-learned/2026-07-06-shared-file-env-var-collision.md](../../raw/lessons-learned/2026-07-06-shared-file-env-var-collision.md)"
-Updated: 2026-07-17
+title: A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap
+sources: Session reflection, 2026-07-06
+raw: "[../../raw/lessons-learned/2026-07-06-shared-file-env-var-collision.md](../../raw/lessons-learned/2026-07-06-shared-file-env-var-collision.md)"
+updated: 2026-07-17
 ---
 
 # A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap

@@ -1,10 +1,12 @@
 ---
 type: lesson
 tags: [clarifying-questions, disambiguation, design-forks]
-Title: Calibrating When and How to Ask — Structured Choices Fit Stable Ambiguity, Not Unstable Intent
-Sources: Session reflection, 2026-07-12; Session reflection, 2026-07-10
-Raw: "[../../raw/lessons-learned/2026-07-12-guided-tutoring-next-loop.md](../../raw/lessons-learned/2026-07-12-guided-tutoring-next-loop.md)"; "[../../raw/lessons-learned/2026-07-10-clarify-and-verify-under-churn.md](../../raw/lessons-learned/2026-07-10-clarify-and-verify-under-churn.md)"
-Updated: 2026-07-17
+title: Calibrating When and How to Ask — Structured Choices Fit Stable Ambiguity, Not Unstable Intent
+sources: Session reflection, 2026-07-12; Session reflection, 2026-07-10
+raw:
+  - "[../../raw/lessons-learned/2026-07-12-guided-tutoring-next-loop.md](../../raw/lessons-learned/2026-07-12-guided-tutoring-next-loop.md)"
+  - "[../../raw/lessons-learned/2026-07-10-clarify-and-verify-under-churn.md](../../raw/lessons-learned/2026-07-10-clarify-and-verify-under-churn.md)"
+updated: 2026-07-17
 ---
 
 # Calibrating When and How to Ask — Structured Choices Fit Stable Ambiguity, Not Unstable Intent

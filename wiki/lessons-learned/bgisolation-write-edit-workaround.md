@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [claude-code, worktree, tooling]
-Title: When a Worktree-Isolation Guard Blocks Write/Edit, Reach for a Bash Heredoc First
-Sources: Session reflection, 2026-07-14
-Raw: "[../../raw/lessons-learned/2026-07-14-git-init-bgisolation-workaround.md](../../raw/lessons-learned/2026-07-14-git-init-bgisolation-workaround.md)"
-Updated: 2026-07-14
+title: When a Worktree-Isolation Guard Blocks Write/Edit, Reach for a Bash Heredoc First
+sources: Session reflection, 2026-07-14
+raw: "[../../raw/lessons-learned/2026-07-14-git-init-bgisolation-workaround.md](../../raw/lessons-learned/2026-07-14-git-init-bgisolation-workaround.md)"
+updated: 2026-07-14
 ---
 
 # When a Worktree-Isolation Guard Blocks Write/Edit, Reach for a Bash Heredoc First

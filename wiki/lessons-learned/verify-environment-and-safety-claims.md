@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [database, safety, verification, shell-scripting]
-Title: Verify a Credential's Environment and a Script's Own Safety Claims Independently
-Sources: Session reflection, 2026-07-17
-Raw: "[../../raw/lessons-learned/2026-07-17-prod-db-safety-verification.md](../../raw/lessons-learned/2026-07-17-prod-db-safety-verification.md)"
-Updated: 2026-07-17
+title: Verify a Credential's Environment and a Script's Own Safety Claims Independently
+sources: Session reflection, 2026-07-17
+raw: "[../../raw/lessons-learned/2026-07-17-prod-db-safety-verification.md](../../raw/lessons-learned/2026-07-17-prod-db-safety-verification.md)"
+updated: 2026-07-17
 ---
 
 # Verify a Credential's Environment and a Script's Own Safety Claims Independently

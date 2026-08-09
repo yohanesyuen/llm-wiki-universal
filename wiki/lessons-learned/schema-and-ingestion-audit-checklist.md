@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [database, schema, audit, checklist]
-Title: A Documented Default Path Is a Claim, Not a Fact — A Schema/Ingestion Audit Checklist
-Sources: Session reflection, 2026-07-10
-Raw: "[../../raw/lessons-learned/2026-07-10-schema-audit-verify-on-disk.md](../../raw/lessons-learned/2026-07-10-schema-audit-verify-on-disk.md)"
-Updated: 2026-07-10
+title: A Documented Default Path Is a Claim, Not a Fact — A Schema/Ingestion Audit Checklist
+sources: Session reflection, 2026-07-10
+raw: "[../../raw/lessons-learned/2026-07-10-schema-audit-verify-on-disk.md](../../raw/lessons-learned/2026-07-10-schema-audit-verify-on-disk.md)"
+updated: 2026-07-10
 ---
 
 # A Documented Default Path Is a Claim, Not a Fact — A Schema/Ingestion Audit Checklist

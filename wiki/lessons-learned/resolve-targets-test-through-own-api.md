@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [verification, testing, environment-migration]
-Title: Resolve Targets Directly, Don't Infer From a Manifest; Test Through a System's Own API, Not a Generic External One
-Sources: Session reflection, 2026-07-12
-Raw: "[../../raw/lessons-learned/2026-07-12-shell-migration-verification.md](../../raw/lessons-learned/2026-07-12-shell-migration-verification.md)"
-Updated: 2026-07-12
+title: Resolve Targets Directly, Don't Infer From a Manifest; Test Through a System's Own API, Not a Generic External One
+sources: Session reflection, 2026-07-12
+raw: "[../../raw/lessons-learned/2026-07-12-shell-migration-verification.md](../../raw/lessons-learned/2026-07-12-shell-migration-verification.md)"
+updated: 2026-07-12
 ---
 
 # Resolve Targets Directly, Don't Infer From a Manifest; Test Through a System's Own API, Not a Generic External One

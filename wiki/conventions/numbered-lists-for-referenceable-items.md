@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [communication]
-Title: Numbered Lists for Referenceable Items
-Sources: session-reflection, 2026-06-25
-Raw: "[../../raw/conventions/numbered-lists-for-referenceable-items.md](../../raw/conventions/numbered-lists-for-referenceable-items.md)"
-Updated: 2026-06-27
+title: Numbered Lists for Referenceable Items
+sources: session-reflection, 2026-06-25
+raw: "[../../raw/conventions/numbered-lists-for-referenceable-items.md](../../raw/conventions/numbered-lists-for-referenceable-items.md)"
+updated: 2026-06-27
 ---
 
 # Numbered Lists for Referenceable Items

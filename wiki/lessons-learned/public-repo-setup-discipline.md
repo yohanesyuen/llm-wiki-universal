@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [git, security, documentation]
-Title: Public Repo Setup Discipline
-Sources: Session reflection, 2026-06-27
-Raw: "[../../raw/lessons-learned/2026-06-27-public-repo-setup.md](../../raw/lessons-learned/2026-06-27-public-repo-setup.md)"
-Updated: 2026-06-27
+title: Public Repo Setup Discipline
+sources: Session reflection, 2026-06-27
+raw: "[../../raw/lessons-learned/2026-06-27-public-repo-setup.md](../../raw/lessons-learned/2026-06-27-public-repo-setup.md)"
+updated: 2026-06-27
 ---
 
 # Public Repo Setup Discipline

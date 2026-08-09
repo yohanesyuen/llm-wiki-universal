@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [session, mcp]
-Title: Subagent Trust Boundary
-Sources: session-reflection, 2026-06-25
-Raw: "[../../raw/conventions/subagent-trust-boundary.md](../../raw/conventions/subagent-trust-boundary.md)"
-Updated: 2026-06-27
+title: Subagent Trust Boundary
+sources: session-reflection, 2026-06-25
+raw: "[../../raw/conventions/subagent-trust-boundary.md](../../raw/conventions/subagent-trust-boundary.md)"
+updated: 2026-06-27
 ---
 
 # Subagent Trust Boundary

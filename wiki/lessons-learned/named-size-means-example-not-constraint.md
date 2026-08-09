@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [specification, clarification, planning]
-Title: Named Size in a Spec Means Example, Not Constraint
-Updated: 2026-06-27
-Sources: session reflection, 2026-06-27
-Raw: "[2026-06-27-named-size-means-example-not-constraint.md](../../raw/lessons-learned/2026-06-27-named-size-means-example-not-constraint.md)"
+title: Named Size in a Spec Means Example, Not Constraint
+updated: 2026-06-27
+sources: session reflection, 2026-06-27
+raw: "[2026-06-27-named-size-means-example-not-constraint.md](../../raw/lessons-learned/2026-06-27-named-size-means-example-not-constraint.md)"
 ---
 
 # Named Size in a Spec Means Example, Not Constraint

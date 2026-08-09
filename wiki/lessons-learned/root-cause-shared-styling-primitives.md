@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [ui, css, debugging, root-cause, testing]
-Title: Root-Cause UI Bugs to the Shared Primitive Behind Them, Not the Symptom Where They Appear
-Sources: Session reflection, 2026-07-06
-Raw: "[../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
-Updated: 2026-07-07
+title: Root-Cause UI Bugs to the Shared Primitive Behind Them, Not the Symptom Where They Appear
+sources: Session reflection, 2026-07-06
+raw: "[../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
+updated: 2026-07-07
 ---
 
 # Root-Cause UI Bugs to the Shared Primitive Behind Them, Not the Symptom Where They Appear

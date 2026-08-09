@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [docker, networking, tls, migration, secrets]
-Title: Layer-Boundary Config Bugs and Staged Service Cutover
-Sources: Session reflection, 2026-07-04
-Raw: "[../../raw/lessons-learned/2026-07-04-docker-nginx-auth-cutover.md](../../raw/lessons-learned/2026-07-04-docker-nginx-auth-cutover.md)"
-Updated: 2026-07-06
+title: Layer-Boundary Config Bugs and Staged Service Cutover
+sources: Session reflection, 2026-07-04
+raw: "[../../raw/lessons-learned/2026-07-04-docker-nginx-auth-cutover.md](../../raw/lessons-learned/2026-07-04-docker-nginx-auth-cutover.md)"
+updated: 2026-07-06
 ---
 
 # Layer-Boundary Config Bugs and Staged Service Cutover

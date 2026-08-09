@@ -1,8 +1,8 @@
 ---
-Title: Allowlist Audit and Session Hygiene
-Sources: Session reflection, 2026-06-29
-Raw: "[../../raw/lessons-learned/2026-06-29-allowlist-audit-and-session-hygiene.md](../../raw/lessons-learned/2026-06-29-allowlist-audit-and-session-hygiene.md)"
-Updated: 2026-06-29
+title: Allowlist Audit and Session Hygiene
+sources: Session reflection, 2026-06-29
+raw: "[../../raw/lessons-learned/2026-06-29-allowlist-audit-and-session-hygiene.md](../../raw/lessons-learned/2026-06-29-allowlist-audit-and-session-hygiene.md)"
+updated: 2026-06-29
 ---
 
 # Allowlist Audit and Session Hygiene

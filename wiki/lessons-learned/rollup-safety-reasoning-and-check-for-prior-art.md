@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [data-integrity, tdd, tooling-reuse, hierarchical-rollup]
-Title: Reason About the Worst-Case Node Before Running a Bulk Rollup; Search for Prior Art Before Building a Second Implementation
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-hierarchical-status-rollup-tooling.md](../../raw/lessons-learned/2026-07-18-hierarchical-status-rollup-tooling.md)"
-Updated: 2026-07-19
+title: Reason About the Worst-Case Node Before Running a Bulk Rollup; Search for Prior Art Before Building a Second Implementation
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-hierarchical-status-rollup-tooling.md](../../raw/lessons-learned/2026-07-18-hierarchical-status-rollup-tooling.md)"
+updated: 2026-07-19
 ---
 
 # Reason About the Worst-Case Node Before Running a Bulk Rollup; Search for Prior Art Before Building a Second Implementation

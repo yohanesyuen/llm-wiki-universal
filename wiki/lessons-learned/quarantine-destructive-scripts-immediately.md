@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [scripts, safety, session]
-Title: Quarantine a Destructive Script the Moment Its Blind Spot Is Found
-Sources: Session reflection, 2026-07-03
-Raw: "[../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
-Updated: 2026-07-03
+title: Quarantine a Destructive Script the Moment Its Blind Spot Is Found
+sources: Session reflection, 2026-07-03
+raw: "[../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
+updated: 2026-07-03
 ---
 
 # Quarantine a Destructive Script the Moment Its Blind Spot Is Found

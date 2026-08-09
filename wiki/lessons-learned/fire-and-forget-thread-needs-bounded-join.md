@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [silent-failure, hooks, threading, logging, fail-loudly]
-Title: Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join
-Sources: session-reflection, 2026-07-07
-Raw: "[../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md](../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md)"
-Updated: 2026-07-17
+title: Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join
+sources: session-reflection, 2026-07-07
+raw: "[../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md](../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md)"
+updated: 2026-07-17
 ---
 
 # Fire-and-Forget Background Threads in Short-Lived Scripts Need a Bounded Join

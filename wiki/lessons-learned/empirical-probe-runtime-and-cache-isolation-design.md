@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [empirical-verification, caching, live-systems]
-Title: Probe a Live Runtime Instead of Theorizing; Key a Cache by Entity, Not by a Shared Evicting Scope
-Sources: Session reflection, 2026-07-10
-Raw: "[../../raw/lessons-learned/2026-07-10-empirical-probes-cache-isolation.md](../../raw/lessons-learned/2026-07-10-empirical-probes-cache-isolation.md)"
-Updated: 2026-07-10
+title: Probe a Live Runtime Instead of Theorizing; Key a Cache by Entity, Not by a Shared Evicting Scope
+sources: Session reflection, 2026-07-10
+raw: "[../../raw/lessons-learned/2026-07-10-empirical-probes-cache-isolation.md](../../raw/lessons-learned/2026-07-10-empirical-probes-cache-isolation.md)"
+updated: 2026-07-10
 ---
 
 # Probe a Live Runtime Instead of Theorizing; Key a Cache by Entity, Not by a Shared Evicting Scope

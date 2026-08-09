@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [wiki, knowledge-management, automation, roadmap]
-Title: Wiki Automation Gaps Found by Comparing Against a Reference Implementation
-Sources: Session reflection, 2026-07-04
-Raw: "[../../raw/lessons-learned/2026-07-04-wiki-automation-gaps-vs-reference-implementation.md](../../raw/lessons-learned/2026-07-04-wiki-automation-gaps-vs-reference-implementation.md)"
-Updated: 2026-07-04
+title: Wiki Automation Gaps Found by Comparing Against a Reference Implementation
+sources: Session reflection, 2026-07-04
+raw: "[../../raw/lessons-learned/2026-07-04-wiki-automation-gaps-vs-reference-implementation.md](../../raw/lessons-learned/2026-07-04-wiki-automation-gaps-vs-reference-implementation.md)"
+updated: 2026-07-04
 ---
 
 # Wiki Automation Gaps Found by Comparing Against a Reference Implementation

@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [curl, shell-quoting, http]
-Title: Use `curl --data @file` for Payloads with Shell-Special Characters
-Sources: session-reflection, 2026-07-07
-Raw: "[../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md](../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md)"
-Updated: 2026-07-07
+title: Use `curl --data @file` for Payloads with Shell-Special Characters
+sources: session-reflection, 2026-07-07
+raw: "[../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md](../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md)"
+updated: 2026-07-07
 ---
 
 # Use `curl --data @file` for Payloads with Shell-Special Characters

@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [testing]
-Title: Smoke-Test the Parts You Can
-Sources: session-reflection, 2026-06-25; Session reflection, 2026-07-06
-Raw: "[../../raw/conventions/smoke-test-parts-you-can.md](../../raw/conventions/smoke-test-parts-you-can.md), [../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md](../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md)"
-Updated: 2026-07-06
+title: Smoke-Test the Parts You Can
+sources: session-reflection, 2026-06-25; Session reflection, 2026-07-06
+raw: "[../../raw/conventions/smoke-test-parts-you-can.md](../../raw/conventions/smoke-test-parts-you-can.md), [../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md](../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md)"
+updated: 2026-07-06
 ---
 
 # Smoke-Test the Parts You Can

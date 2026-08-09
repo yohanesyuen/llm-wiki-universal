@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [rule-design, standing-rules, iteration, self-critique]
-Title: Standing Rules Get Sharper Through Live Pushback, Not First-Draft Phrasing
-Sources: session-reflection, 2026-07-07
-Raw: "[../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md](../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md)"
-Updated: 2026-07-07
+title: Standing Rules Get Sharper Through Live Pushback, Not First-Draft Phrasing
+sources: session-reflection, 2026-07-07
+raw: "[../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md](../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md)"
+updated: 2026-07-07
 ---
 
 # Standing Rules Get Sharper Through Live Pushback, Not First-Draft Phrasing

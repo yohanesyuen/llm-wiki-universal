@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [tooling, data-loss, verification, orm]
-Title: A Tool's Success Message Describes Intent, Not Effect — Diff the Actual Before/After
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-managed-block-trust-and-drift-detection.md](../../raw/lessons-learned/2026-07-18-managed-block-trust-and-drift-detection.md)"
-Updated: 2026-07-19
+title: A Tool's Success Message Describes Intent, Not Effect — Diff the Actual Before/After
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-managed-block-trust-and-drift-detection.md](../../raw/lessons-learned/2026-07-18-managed-block-trust-and-drift-detection.md)"
+updated: 2026-07-19
 ---
 
 # A Tool's Success Message Describes Intent, Not Effect — Diff the Actual Before/After

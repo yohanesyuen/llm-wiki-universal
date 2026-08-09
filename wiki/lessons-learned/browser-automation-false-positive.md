@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [browser-automation, false-positive, verification]
-Title: Browser Automation False Positives Look Exactly Like Confirmed Bugs
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-hierarchical-status-rollup-tooling.md](../../raw/lessons-learned/2026-07-18-hierarchical-status-rollup-tooling.md)"
-Updated: 2026-07-19
+title: Browser Automation False Positives Look Exactly Like Confirmed Bugs
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-hierarchical-status-rollup-tooling.md](../../raw/lessons-learned/2026-07-18-hierarchical-status-rollup-tooling.md)"
+updated: 2026-07-19
 ---
 
 # Browser Automation False Positives Look Exactly Like Confirmed Bugs

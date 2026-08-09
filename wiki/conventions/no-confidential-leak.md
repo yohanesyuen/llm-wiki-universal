@@ -1,10 +1,12 @@
 ---
 type: convention
 tags: [security, sanitization, git]
-Title: No Confidential Information in Code or Git History
-Sources: "User instruction"; Session reflection, 2026-07-06
-Raw: "[../../raw/conventions/no-confidential-leak.md](../../raw/conventions/no-confidential-leak.md), [../../raw/conventions/2026-07-03-sanitize-before-external-tracker.md](../../raw/conventions/2026-07-03-sanitize-before-external-tracker.md), [../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md](../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md)"
-Updated: 2026-07-06
+title: No Confidential Information in Code or Git History
+sources:
+  - "User instruction"
+  - "Session reflection, 2026-07-06"
+raw: "[../../raw/conventions/no-confidential-leak.md](../../raw/conventions/no-confidential-leak.md), [../../raw/conventions/2026-07-03-sanitize-before-external-tracker.md](../../raw/conventions/2026-07-03-sanitize-before-external-tracker.md), [../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md](../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md)"
+updated: 2026-07-06
 ---
 
 # No Confidential Information in Code or Git History

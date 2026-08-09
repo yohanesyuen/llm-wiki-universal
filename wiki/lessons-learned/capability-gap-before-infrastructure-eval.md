@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [planning, tooling]
-Title: Name the Capability Gap Before Evaluating New Infrastructure
-Sources: Session reflection, 2026-06-28
-Raw: "[../../raw/lessons-learned/2026-06-28-mcp-conversion-eval.md](../../raw/lessons-learned/2026-06-28-mcp-conversion-eval.md)"
-Updated: 2026-06-28
+title: Name the Capability Gap Before Evaluating New Infrastructure
+sources: Session reflection, 2026-06-28
+raw: "[../../raw/lessons-learned/2026-06-28-mcp-conversion-eval.md](../../raw/lessons-learned/2026-06-28-mcp-conversion-eval.md)"
+updated: 2026-06-28
 ---
 
 # Name the Capability Gap Before Evaluating New Infrastructure

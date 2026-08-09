@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [testing, tdd, workflow-automation]
-Title: A Test That Passes Against an Unimplemented Stub Is a Smell; Codify a Repeated Workflow the Moment It Repeats
-Sources: Session reflection, 2026-07-12
-Raw: "[../../raw/lessons-learned/2026-07-12-guided-tutoring-next-loop.md](../../raw/lessons-learned/2026-07-12-guided-tutoring-next-loop.md)"
-Updated: 2026-07-12
+title: A Test That Passes Against an Unimplemented Stub Is a Smell; Codify a Repeated Workflow the Moment It Repeats
+sources: Session reflection, 2026-07-12
+raw: "[../../raw/lessons-learned/2026-07-12-guided-tutoring-next-loop.md](../../raw/lessons-learned/2026-07-12-guided-tutoring-next-loop.md)"
+updated: 2026-07-12
 ---
 
 # A Test That Passes Against an Unimplemented Stub Is a Smell; Codify a Repeated Workflow the Moment It Repeats

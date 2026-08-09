@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [api, verification, agents, planning]
-Title: Probe Sibling APIs Directly; Plausible-Small Numbers Are a Bug Smell
-Sources: Session reflection, 2026-07-06
-Raw: "[../../raw/lessons-learned/2026-07-06-cloud-storage-api-consumer.md](../../raw/lessons-learned/2026-07-06-cloud-storage-api-consumer.md)"
-Updated: 2026-07-06
+title: Probe Sibling APIs Directly; Plausible-Small Numbers Are a Bug Smell
+sources: Session reflection, 2026-07-06
+raw: "[../../raw/lessons-learned/2026-07-06-cloud-storage-api-consumer.md](../../raw/lessons-learned/2026-07-06-cloud-storage-api-consumer.md)"
+updated: 2026-07-06
 ---
 
 # Probe Sibling APIs Directly; Plausible-Small Numbers Are a Bug Smell

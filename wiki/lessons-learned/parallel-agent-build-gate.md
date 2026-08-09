@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [agents, build, typescript, monorepo, parallel, testing]
-Title: Parallel Agent Waves Need a Build Gate, Not Just a Type Check
-Sources: Session reflection, 2026-06-30; Session reflection, 2026-07-06
-Raw: "[../../raw/lessons-learned/2026-06-30-parallel-agent-build-gate.md](../../raw/lessons-learned/2026-06-30-parallel-agent-build-gate.md); [2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
-Updated: 2026-07-06
+title: Parallel Agent Waves Need a Build Gate, Not Just a Type Check
+sources: Session reflection, 2026-06-30; Session reflection, 2026-07-06
+raw: "[../../raw/lessons-learned/2026-06-30-parallel-agent-build-gate.md](../../raw/lessons-learned/2026-06-30-parallel-agent-build-gate.md); [2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
+updated: 2026-07-06
 ---
 
 # Parallel Agent Waves Need a Build Gate, Not Just a Type Check

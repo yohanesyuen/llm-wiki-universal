@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [guardrails, hooks, worktree, git, automation]
-Title: A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope
-Sources: Session reflection, 2026-07-06
-Raw: "[../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
-Updated: 2026-07-08
+title: A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope
+sources: Session reflection, 2026-07-06
+raw: "[../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
+updated: 2026-07-08
 ---
 
 # A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope

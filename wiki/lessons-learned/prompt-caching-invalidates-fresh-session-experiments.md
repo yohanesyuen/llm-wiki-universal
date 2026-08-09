@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [prompt-caching, experiment-design, subagents, tokens, anthropic-api]
-Title: Prompt Caching Can Invalidate "Fresh Session" A/B Experiments
-Sources: session-reflection, 2026-07-07
-Raw: "[../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md](../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md)"
-Updated: 2026-07-07
+title: Prompt Caching Can Invalidate "Fresh Session" A/B Experiments
+sources: session-reflection, 2026-07-07
+raw: "[../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md](../../raw/lessons-learned/2026-07-07-cache-invalidated-experiment.md)"
+updated: 2026-07-07
 ---
 
 # Prompt Caching Can Invalidate "Fresh Session" A/B Experiments

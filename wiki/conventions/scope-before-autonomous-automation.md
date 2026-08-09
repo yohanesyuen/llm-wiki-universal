@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [automation, hooks, autonomy, human-in-the-loop]
-Title: Confirm Scope Before Building Automation; Gate Anything Self-Modifying
-Sources: Session reflection, 2026-07-04
-Raw: "[../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
-Updated: 2026-07-04
+title: Confirm Scope Before Building Automation; Gate Anything Self-Modifying
+sources: Session reflection, 2026-07-04
+raw: "[../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
+updated: 2026-07-04
 ---
 
 # Confirm Scope Before Building Automation; Gate Anything Self-Modifying

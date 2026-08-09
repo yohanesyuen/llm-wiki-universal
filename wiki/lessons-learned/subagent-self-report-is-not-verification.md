@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [multi-agent, verification, workflow-orchestration]
-Title: A Subagent's Self-Report Is a Claim, Not a Verification
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-multi-agent-workflow-verification.md](../../raw/lessons-learned/2026-07-18-multi-agent-workflow-verification.md)"
-Updated: 2026-07-19
+title: A Subagent's Self-Report Is a Claim, Not a Verification
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-multi-agent-workflow-verification.md](../../raw/lessons-learned/2026-07-18-multi-agent-workflow-verification.md)"
+updated: 2026-07-19
 ---
 
 # A Subagent's Self-Report Is a Claim, Not a Verification

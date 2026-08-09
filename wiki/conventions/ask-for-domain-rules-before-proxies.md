@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [clarification, planning]
-Title: Ask for Domain Rules Before Deriving Proxies
-Sources: session-reflection, 2026-06-25
-Raw: "[../../raw/conventions/ask-for-domain-rules-before-proxies.md](../../raw/conventions/ask-for-domain-rules-before-proxies.md)"
-Updated: 2026-06-27
+title: Ask for Domain Rules Before Deriving Proxies
+sources: session-reflection, 2026-06-25
+raw: "[../../raw/conventions/ask-for-domain-rules-before-proxies.md](../../raw/conventions/ask-for-domain-rules-before-proxies.md)"
+updated: 2026-06-27
 ---
 
 # Ask for Domain Rules Before Deriving Proxies

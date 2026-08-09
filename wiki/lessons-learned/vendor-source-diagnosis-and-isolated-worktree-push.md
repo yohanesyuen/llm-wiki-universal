@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [vendor-library, debugging, git-worktree, concurrent-editing]
-Title: Grep the Vendor's Compiled Source for Real Event Wiring Before Guessing at a Fix
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-vendor-lib-source-diagnosis-isolated-push.md](../../raw/lessons-learned/2026-07-18-vendor-lib-source-diagnosis-isolated-push.md)"
-Updated: 2026-07-19
+title: Grep the Vendor's Compiled Source for Real Event Wiring Before Guessing at a Fix
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-vendor-lib-source-diagnosis-isolated-push.md](../../raw/lessons-learned/2026-07-18-vendor-lib-source-diagnosis-isolated-push.md)"
+updated: 2026-07-19
 ---
 
 # Grep the Vendor's Compiled Source for Real Event Wiring Before Guessing at a Fix

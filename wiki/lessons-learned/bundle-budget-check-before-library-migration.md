@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [frontend, bundle-size, library-migration, build-verification]
-Title: Check Bundle Budget as Part of the Initial Library Comparison, Not After Implementation
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-bundle-size-verification-pluggable-fallback.md](../../raw/lessons-learned/2026-07-18-bundle-size-verification-pluggable-fallback.md)"
-Updated: 2026-07-19
+title: Check Bundle Budget as Part of the Initial Library Comparison, Not After Implementation
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-bundle-size-verification-pluggable-fallback.md](../../raw/lessons-learned/2026-07-18-bundle-size-verification-pluggable-fallback.md)"
+updated: 2026-07-19
 ---
 
 # Check Bundle Budget as Part of the Initial Library Comparison, Not After Implementation

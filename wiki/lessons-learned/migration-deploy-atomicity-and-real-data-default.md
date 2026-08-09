@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [database-migration, deployment, outage, defaults]
-Title: A Destructive Live Migration and Its Matching Code Deploy Are One Atomic Unit
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-schema-migration-sequencing-and-real-data-preference.md](../../raw/lessons-learned/2026-07-18-schema-migration-sequencing-and-real-data-preference.md)"
-Updated: 2026-07-19
+title: A Destructive Live Migration and Its Matching Code Deploy Are One Atomic Unit
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-schema-migration-sequencing-and-real-data-preference.md](../../raw/lessons-learned/2026-07-18-schema-migration-sequencing-and-real-data-preference.md)"
+updated: 2026-07-19
 ---
 
 # A Destructive Live Migration and Its Matching Code Deploy Are One Atomic Unit

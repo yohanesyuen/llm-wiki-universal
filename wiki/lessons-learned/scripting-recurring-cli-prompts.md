@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [scripting, cli, automation, shell-history, chat-history]
-Title: Scripting Recurring CLI Prompts
-Sources: Session reflection, 2026-06-29
-Raw: "[../../raw/lessons-learned/2026-06-29-script-recurring-cli-prompts.md](../../raw/lessons-learned/2026-06-29-script-recurring-cli-prompts.md); [../../raw/lessons-learned/2026-06-29-claude-chat-history-as-repetition-source.md](../../raw/lessons-learned/2026-06-29-claude-chat-history-as-repetition-source.md)"
-Updated: 2026-06-29
+title: Scripting Recurring CLI Prompts
+sources: Session reflection, 2026-06-29
+raw: "[../../raw/lessons-learned/2026-06-29-script-recurring-cli-prompts.md](../../raw/lessons-learned/2026-06-29-script-recurring-cli-prompts.md); [../../raw/lessons-learned/2026-06-29-claude-chat-history-as-repetition-source.md](../../raw/lessons-learned/2026-06-29-claude-chat-history-as-repetition-source.md)"
+updated: 2026-06-29
 ---
 
 # Scripting Recurring CLI Prompts

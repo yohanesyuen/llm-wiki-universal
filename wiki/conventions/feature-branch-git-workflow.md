@@ -1,8 +1,8 @@
 ---
-Title: Feature-Branch Git Workflow for AI-Assisted Development
-Sources: Internal project workflow doc; 2026-06-29; Session reflection, 2026-07-04; Session reflection, 2026-07-06
-Raw: "[2026-06-29-feature-branch-git-workflow.md](../../raw/conventions/2026-06-29-feature-branch-git-workflow.md); [2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md); [2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
-Updated: 2026-07-06
+title: Feature-Branch Git Workflow for AI-Assisted Development
+sources: Internal project workflow doc; 2026-06-29; Session reflection, 2026-07-04; Session reflection, 2026-07-06
+raw: "[2026-06-29-feature-branch-git-workflow.md](../../raw/conventions/2026-06-29-feature-branch-git-workflow.md); [2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md); [2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
+updated: 2026-07-06
 ---
 	
 # Feature-Branch Git Workflow for AI-Assisted Development

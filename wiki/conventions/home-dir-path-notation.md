@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [communication, documentation]
-Title: Write Home-Directory Paths as ~/... in Text Output
-Sources: session-reflection, 2026-06-25
-Raw: "[../../raw/conventions/home-dir-path-notation.md](../../raw/conventions/home-dir-path-notation.md)"
-Updated: 2026-06-27
+title: Write Home-Directory Paths as ~/... in Text Output
+sources: session-reflection, 2026-06-25
+raw: "[../../raw/conventions/home-dir-path-notation.md](../../raw/conventions/home-dir-path-notation.md)"
+updated: 2026-06-27
 ---
 
 # Write Home-Directory Paths as ~/... in Text Output

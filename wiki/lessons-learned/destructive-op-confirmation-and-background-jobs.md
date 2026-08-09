@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [git, concurrency, background-jobs, confirmation]
-Title: Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs
-Sources: Session reflection, 2026-07-03
-Raw: "[../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
-Updated: 2026-07-03
+title: Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs
+sources: Session reflection, 2026-07-03
+raw: "[../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md](../../raw/lessons-learned/2026-07-03-corpus-cleanup-and-reindex.md)"
+updated: 2026-07-03
 ---
 
 # Confirm Before Escalating to a Destructive Op; Serialize Shared Writes; Background Long Jobs

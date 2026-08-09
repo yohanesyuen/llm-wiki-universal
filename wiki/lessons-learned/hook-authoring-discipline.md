@@ -1,8 +1,8 @@
 ---
-Title: Hook Authoring Discipline
-Sources: Session reflection, 2026-06-29; Session reflection, 2026-07-04
-Raw: "[../../raw/lessons-learned/2026-06-29-hook-authoring-discipline.md](../../raw/lessons-learned/2026-06-29-hook-authoring-discipline.md); [../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
-Updated: 2026-07-07
+title: Hook Authoring Discipline
+sources: Session reflection, 2026-06-29; Session reflection, 2026-07-04
+raw: "[../../raw/lessons-learned/2026-06-29-hook-authoring-discipline.md](../../raw/lessons-learned/2026-06-29-hook-authoring-discipline.md); [../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
+updated: 2026-07-07
 type: article
 ---
 

@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [secrets, debugging, database, migration, namespace-isolation]
-Title: Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default
-Sources: Session reflection, 2026-07-05; Session reflection, 2026-07-06
-Raw: "[../../raw/lessons-learned/2026-07-05-secret-print-during-debug.md](../../raw/lessons-learned/2026-07-05-secret-print-during-debug.md); [2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
-Updated: 2026-07-06
+title: Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default
+sources: Session reflection, 2026-07-05; Session reflection, 2026-07-06
+raw: "[../../raw/lessons-learned/2026-07-05-secret-print-during-debug.md](../../raw/lessons-learned/2026-07-05-secret-print-during-debug.md); [2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
+updated: 2026-07-06
 ---
 
 # Check a Helper's Contract Before Printing Its Output to Inspect Shape; Isolate Shared Namespaces by Default

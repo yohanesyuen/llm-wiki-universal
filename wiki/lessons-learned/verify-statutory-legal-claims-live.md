@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [fact-verification, hallucination, self-critique, domain-facts]
-Title: Statutory and Legal Figures Need a Live Citation, Not Recalled Confidence
-Sources: Session reflection, 2026-07-17
-Raw: "[../../raw/lessons-learned/2026-07-17-statutory-fact-hallucination.md](../../raw/lessons-learned/2026-07-17-statutory-fact-hallucination.md)"
-Updated: 2026-07-19
+title: Statutory and Legal Figures Need a Live Citation, Not Recalled Confidence
+sources: Session reflection, 2026-07-17
+raw: "[../../raw/lessons-learned/2026-07-17-statutory-fact-hallucination.md](../../raw/lessons-learned/2026-07-17-statutory-fact-hallucination.md)"
+updated: 2026-07-19
 ---
 
 # Statutory and Legal Figures Need a Live Citation, Not Recalled Confidence

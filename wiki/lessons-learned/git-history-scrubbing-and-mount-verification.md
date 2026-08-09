@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [git, security, sanitization, docker, verification]
-Title: Git History Scrubbing Has Two Leak Surfaces; a Moved Mount Isn't Done Until the Consumer Restarts
-Sources: Session reflection, 2026-07-06
-Raw: "[../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md](../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md)"
-Updated: 2026-07-06
+title: Git History Scrubbing Has Two Leak Surfaces; a Moved Mount Isn't Done Until the Consumer Restarts
+sources: Session reflection, 2026-07-06
+raw: "[../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md](../../raw/lessons-learned/2026-07-06-cross-session-repo-cleanup.md)"
+updated: 2026-07-06
 ---
 
 # Git History Scrubbing Has Two Leak Surfaces; a Moved Mount Isn't Done Until the Consumer Restarts

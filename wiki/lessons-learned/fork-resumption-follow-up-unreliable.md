@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [agents, forking, background-agents]
-Title: Fork Resumption Is Unreliable for "Spawn, Then Follow Up" Patterns
-Sources: Session reflection, 2026-07-04
-Raw: "[../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
-Updated: 2026-07-04
+title: Fork Resumption Is Unreliable for "Spawn, Then Follow Up" Patterns
+sources: Session reflection, 2026-07-04
+raw: "[../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md](../../raw/lessons-learned/2026-07-04-agent-hooks-and-guardrails.md)"
+updated: 2026-07-04
 ---
 
 # Fork Resumption Is Unreliable for "Spawn, Then Follow Up" Patterns

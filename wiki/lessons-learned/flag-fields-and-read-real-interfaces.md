@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [review, code-reuse, clarifying-questions]
-Title: Flag Each Surprising Field Separately; Read the Real Interface Before Extending It
-Sources: Session reflection, 2026-07-17
-Raw: "[../../raw/lessons-learned/2026-07-17-concurrent-session-collision-and-scoped-feature-delivery.md](../../raw/lessons-learned/2026-07-17-concurrent-session-collision-and-scoped-feature-delivery.md)"
-Updated: 2026-07-17
+title: Flag Each Surprising Field Separately; Read the Real Interface Before Extending It
+sources: Session reflection, 2026-07-17
+raw: "[../../raw/lessons-learned/2026-07-17-concurrent-session-collision-and-scoped-feature-delivery.md](../../raw/lessons-learned/2026-07-17-concurrent-session-collision-and-scoped-feature-delivery.md)"
+updated: 2026-07-17
 ---
 
 # Flag Each Surprising Field Separately; Read the Real Interface Before Extending It

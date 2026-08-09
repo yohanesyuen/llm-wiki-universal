@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [communication, security, git]
-Title: Sign Off as Claude When Filing Externally
-Sources: session-reflection, 2026-06-25
-Raw: "[../../raw/conventions/sign-off-as-claude.md](../../raw/conventions/sign-off-as-claude.md)"
-Updated: 2026-06-27
+title: Sign Off as Claude When Filing Externally
+sources: session-reflection, 2026-06-25
+raw: "[../../raw/conventions/sign-off-as-claude.md](../../raw/conventions/sign-off-as-claude.md)"
+updated: 2026-06-27
 ---
 
 # Sign Off as Claude When Filing Externally

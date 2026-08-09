@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [security, secrets, env-vars]
-Title: Never Read Secret Values Into Agent Context
-Sources: wrsmith108/varlock-claude-skill (GitHub), 2026
-Raw: "[../../raw/conventions/2026-07-03-varlock-claude-skill-secure-env-vars.md](../../raw/conventions/2026-07-03-varlock-claude-skill-secure-env-vars.md)"
-Updated: 2026-07-03
+title: Never Read Secret Values Into Agent Context
+sources: wrsmith108/varlock-claude-skill (GitHub), 2026
+raw: "[../../raw/conventions/2026-07-03-varlock-claude-skill-secure-env-vars.md](../../raw/conventions/2026-07-03-varlock-claude-skill-secure-env-vars.md)"
+updated: 2026-07-03
 ---
 
 # Never Read Secret Values Into Agent Context

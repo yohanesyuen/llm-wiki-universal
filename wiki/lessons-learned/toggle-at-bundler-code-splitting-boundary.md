@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [frontend, bundle-size, feature-toggle, build-tooling]
-Title: Toggle at the Bundler's Code-Splitting Boundary for a Reversible Migration
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-bundle-size-verification-pluggable-fallback.md](../../raw/lessons-learned/2026-07-18-bundle-size-verification-pluggable-fallback.md)"
-Updated: 2026-07-19
+title: Toggle at the Bundler's Code-Splitting Boundary for a Reversible Migration
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-bundle-size-verification-pluggable-fallback.md](../../raw/lessons-learned/2026-07-18-bundle-size-verification-pluggable-fallback.md)"
+updated: 2026-07-19
 ---
 
 # Toggle at the Bundler's Code-Splitting Boundary for a Reversible Migration

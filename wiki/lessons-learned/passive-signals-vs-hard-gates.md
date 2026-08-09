@@ -1,8 +1,8 @@
 ---
-Title: Passive Signals vs Hard Gates
-Sources: Session reflection, 2026-06-29
-Raw: "[../../raw/lessons-learned/2026-06-29-passive-signals-vs-hard-gates.md](../../raw/lessons-learned/2026-06-29-passive-signals-vs-hard-gates.md)"
-Updated: 2026-07-17
+title: Passive Signals vs Hard Gates
+sources: Session reflection, 2026-06-29
+raw: "[../../raw/lessons-learned/2026-06-29-passive-signals-vs-hard-gates.md](../../raw/lessons-learned/2026-06-29-passive-signals-vs-hard-gates.md)"
+updated: 2026-07-17
 type: article
 ---
 

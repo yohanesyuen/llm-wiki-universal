@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [reverse-engineering, debugging, verification, third-party-code]
-Title: Verify a System's Deeper Invariant Before Building On It; Validate a Debugger's Signal Against a Known-Good Baseline
-Sources: Session reflection, 2026-07-17
-Raw: "[../../raw/lessons-learned/2026-07-17-binary-graft-engine-debugging.md](../../raw/lessons-learned/2026-07-17-binary-graft-engine-debugging.md)"
-Updated: 2026-07-17
+title: Verify a System's Deeper Invariant Before Building On It; Validate a Debugger's Signal Against a Known-Good Baseline
+sources: Session reflection, 2026-07-17
+raw: "[../../raw/lessons-learned/2026-07-17-binary-graft-engine-debugging.md](../../raw/lessons-learned/2026-07-17-binary-graft-engine-debugging.md)"
+updated: 2026-07-17
 ---
 
 # Verify a System's Deeper Invariant Before Building On It; Validate a Debugger's Signal Against a Known-Good Baseline

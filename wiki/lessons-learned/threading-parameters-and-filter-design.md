@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [data-flow, filtering, api-design]
-Title: A New Parameter Is a Data-Flow Change, Not a Signature Change; Filter Every Structure the Record Leaks Into
-Sources: Session reflection, 2026-07-10
-Raw: "[../../raw/lessons-learned/2026-07-10-thread-opt-out-param-through-pipeline.md](../../raw/lessons-learned/2026-07-10-thread-opt-out-param-through-pipeline.md)"
-Updated: 2026-07-10
+title: A New Parameter Is a Data-Flow Change, Not a Signature Change; Filter Every Structure the Record Leaks Into
+sources: Session reflection, 2026-07-10
+raw: "[../../raw/lessons-learned/2026-07-10-thread-opt-out-param-through-pipeline.md](../../raw/lessons-learned/2026-07-10-thread-opt-out-param-through-pipeline.md)"
+updated: 2026-07-10
 ---
 
 # A New Parameter Is a Data-Flow Change, Not a Signature Change; Filter Every Structure the Record Leaks Into

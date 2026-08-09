@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [debugging, audit-logs, data-modeling, root-cause]
-Title: A "Grant/Revoke" Field Must Be Derived From Both Sides of a Transition, Never One
-Sources: Session reflection, 2026-07-17
-Raw: "[../../raw/lessons-learned/2026-07-17-audit-log-classification-bug.md](../../raw/lessons-learned/2026-07-17-audit-log-classification-bug.md)"
-Updated: 2026-07-19
+title: A "Grant/Revoke" Field Must Be Derived From Both Sides of a Transition, Never One
+sources: Session reflection, 2026-07-17
+raw: "[../../raw/lessons-learned/2026-07-17-audit-log-classification-bug.md](../../raw/lessons-learned/2026-07-17-audit-log-classification-bug.md)"
+updated: 2026-07-19
 ---
 
 # A "Grant/Revoke" Field Must Be Derived From Both Sides of a Transition, Never One

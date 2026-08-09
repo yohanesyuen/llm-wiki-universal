@@ -1,8 +1,8 @@
 ---
 type: convention
 tags: [wiki, knowledge-management]
-Title: When to Consult the Wiki
-Updated: 2026-06-28
+title: When to Consult the Wiki
+updated: 2026-06-28
 ---
 
 # When to Consult the Wiki

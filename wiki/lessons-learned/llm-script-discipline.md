@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [inference, llm, session]
-Title: LLM Script Discipline in Sessions
-Sources: Session reflection, 2026-06-28
-Raw: "[../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md](../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md)"
-Updated: 2026-06-28
+title: LLM Script Discipline in Sessions
+sources: Session reflection, 2026-06-28
+raw: "[../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md](../../raw/lessons-learned/2026-06-28-esm-compatibility-llm-script-discipline.md)"
+updated: 2026-06-28
 ---
 
 # LLM Script Discipline in Sessions

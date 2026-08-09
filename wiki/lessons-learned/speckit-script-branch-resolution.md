@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [speckit, workflow, tooling, git]
-Title: Speckit Setup Scripts Resolve FEATURE_DIR by Git Branch
-Sources: Session reflection, 2026-06-30
-Raw: "[../../raw/lessons-learned/2026-06-30-speckit-script-branch-resolution.md](../../raw/lessons-learned/2026-06-30-speckit-script-branch-resolution.md)"
-Updated: 2026-06-30
+title: Speckit Setup Scripts Resolve FEATURE_DIR by Git Branch
+sources: Session reflection, 2026-06-30
+raw: "[../../raw/lessons-learned/2026-06-30-speckit-script-branch-resolution.md](../../raw/lessons-learned/2026-06-30-speckit-script-branch-resolution.md)"
+updated: 2026-06-30
 ---
 
 # Speckit Setup Scripts Resolve FEATURE_DIR by Git Branch

@@ -1,10 +1,10 @@
 ---
 type: convention
 tags: [hygiene, session]
-Title: Defensive Habits Can Outlive Their Cost-Justification
-Sources: session-reflection, 2026-06-25
-Raw: "[../../raw/conventions/defensive-habits-outlive-cost.md](../../raw/conventions/defensive-habits-outlive-cost.md)"
-Updated: 2026-06-27
+title: Defensive Habits Can Outlive Their Cost-Justification
+sources: session-reflection, 2026-06-25
+raw: "[../../raw/conventions/defensive-habits-outlive-cost.md](../../raw/conventions/defensive-habits-outlive-cost.md)"
+updated: 2026-06-27
 ---
 
 # Defensive Habits Can Outlive Their Cost-Justification

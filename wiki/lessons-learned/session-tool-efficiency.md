@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [session, context-efficiency]
-Title: Session Tool Efficiency
-Sources: Session reflection, 2026-06-28
-Raw: "[../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md](../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md); [../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md](../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md)"
-Updated: 2026-07-07
+title: Session Tool Efficiency
+sources: Session reflection, 2026-06-28
+raw: "[../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md](../../raw/lessons-learned/2026-06-28-file-state-tracking-and-readme-authoring.md); [../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md](../../raw/lessons-learned/2026-06-28-skill-file-location-and-responsibility.md)"
+updated: 2026-07-07
 ---
 
 # Session Tool Efficiency

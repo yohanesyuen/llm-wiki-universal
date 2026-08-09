@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [clarification, context-tracking, status-drift, preference-persistence]
-Title: A Rejected Clarifying Question Doesn't Stay "Live" Context Across a Topic Shift
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-stale-context-and-live-verification.md](../../raw/lessons-learned/2026-07-18-stale-context-and-live-verification.md)"
-Updated: 2026-07-19
+title: A Rejected Clarifying Question Doesn't Stay "Live" Context Across a Topic Shift
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-stale-context-and-live-verification.md](../../raw/lessons-learned/2026-07-18-stale-context-and-live-verification.md)"
+updated: 2026-07-19
 ---
 
 # A Rejected Clarifying Question Doesn't Stay "Live" Context Across a Topic Shift

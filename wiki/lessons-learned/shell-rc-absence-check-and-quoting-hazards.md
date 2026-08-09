@@ -1,10 +1,10 @@
 ---
 type: lesson
 tags: [shell, debugging, false-positive, xonsh]
-Title: An "Is the Variable Still Defined" Check Proves Nothing If the Script Deliberately Deletes It
-Sources: Session reflection, 2026-07-18
-Raw: "[../../raw/lessons-learned/2026-07-18-debugging-shell-rc-false-positives.md](../../raw/lessons-learned/2026-07-18-debugging-shell-rc-false-positives.md)"
-Updated: 2026-07-19
+title: An "Is the Variable Still Defined" Check Proves Nothing If the Script Deliberately Deletes It
+sources: Session reflection, 2026-07-18
+raw: "[../../raw/lessons-learned/2026-07-18-debugging-shell-rc-false-positives.md](../../raw/lessons-learned/2026-07-18-debugging-shell-rc-false-positives.md)"
+updated: 2026-07-19
 ---
 
 # An "Is the Variable Still Defined" Check Proves Nothing If the Script Deliberately Deletes It

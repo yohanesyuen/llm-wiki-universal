@@ -1,10 +1,13 @@
 ---
 type: lesson
 tags: [stale-state, verification, live-editing]
-Title: Stale In-Context File State Is Indistinguishable From a Hallucination — Re-Read Before Asserting or Editing
-Sources: Session reflection, 2026-07-12; Session reflection, 2026-07-08
-Raw: "[../../raw/lessons-learned/2026-07-12-verify-mutable-state-and-tool-anchoring.md](../../raw/lessons-learned/2026-07-12-verify-mutable-state-and-tool-anchoring.md)"; "[../../raw/lessons-learned/2026-07-08-live-coedit-sdk-explorer.md](../../raw/lessons-learned/2026-07-08-live-coedit-sdk-explorer.md)"; "[../../raw/lessons-learned/2026-07-08-settings-dedup-concurrent-edit.md](../../raw/lessons-learned/2026-07-08-settings-dedup-concurrent-edit.md)"
-Updated: 2026-07-17
+title: Stale In-Context File State Is Indistinguishable From a Hallucination — Re-Read Before Asserting or Editing
+sources: Session reflection, 2026-07-12; Session reflection, 2026-07-08
+raw:
+  - "[../../raw/lessons-learned/2026-07-12-verify-mutable-state-and-tool-anchoring.md](../../raw/lessons-learned/2026-07-12-verify-mutable-state-and-tool-anchoring.md)"
+  - "[../../raw/lessons-learned/2026-07-08-live-coedit-sdk-explorer.md](../../raw/lessons-learned/2026-07-08-live-coedit-sdk-explorer.md)"
+  - "[../../raw/lessons-learned/2026-07-08-settings-dedup-concurrent-edit.md](../../raw/lessons-learned/2026-07-08-settings-dedup-concurrent-edit.md)"
+updated: 2026-07-17
 ---
 
 # Stale In-Context File State Is Indistinguishable From a Hallucination — Re-Read Before Asserting or Editing
