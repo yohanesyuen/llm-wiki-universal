@@ -215,3 +215,7 @@ Sweep verification after the mechanical frontmatter normalisation (81 articles h
 - Not fixed (accurate history): two `log.md` links to `conventions/sanitize-before-external-tracker.md` are dead because that article was merged into `conventions/no-confidential-leak.md`; the 2026-07-03 merge entry names the destination. A log records what happened — left as-is rather than `[MISSING]`-tagged.
 - Not applied (reported): `wiki/index.md` is 102 lines, over the 100-line shard threshold. `shard_index.py --dry-run` would move `lessons-learned` (64 articles) into `wiki/lessons-learned/index.md`, leaving the top-level index at 39. Held back deliberately — the frontmatter sweep is still uncommitted here, and splitting the index on top of it would destroy the "0 non-frontmatter lines changed" property being used to review it. Run it as its own change after the sweep lands.
 - Scope: **deterministic checks only** (frontmatter parse/key set, link targets, index integrity both directions, markdown syntax), per the request. The heuristic checks (orphans, contradictions, outdated claims, cross-topic gaps) and the `~/.claude/memory/` backlink check were **not run** this pass — last run 2026-07-19. "Not run" is not "found nothing".
+
+## [2026-08-09] ingest | [Mocked Tests Validate Logic, Not Wiring — Plus Habits From Root-Causing a Self-Inflicted Outage](lessons-learned/mocked-tests-validate-logic-not-wiring.md)
+
+## [2026-08-09] ingest | [Green Static Checks Don't Prove the Code Ever Runs](lessons-learned/green-checks-dont-prove-it-runs.md)
