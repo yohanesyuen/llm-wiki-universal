@@ -4,7 +4,7 @@ tags: [concurrency, multi-agent, coordination, incident, authorization]
 title: A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap
 sources: Session reflection, 2026-07-06
 raw: "[../../raw/lessons-learned/2026-07-06-shared-file-env-var-collision.md](../../raw/lessons-learned/2026-07-06-shared-file-env-var-collision.md)"
-updated: 2026-07-17
+updated: 2026-08-11
 ---
 
 # A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap
@@ -36,3 +36,4 @@ Separately, in the same incident, a subdomain believed to be protected by an exi
 - [Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit](worktree-isolation-untracked-files-and-shell-hook-race.md) — same theme of a concurrent process racing an edit to the same file, this time a single session's own shell hook rather than a second agent
 - [Flag Each Surprising Field Separately; Read the Real Interface Before Extending It](flag-fields-and-read-real-interfaces.md) — companion lesson from a later collision in the same problem family
 - [Stale In-Context File State Is Indistinguishable From a Hallucination — Re-Read Before Asserting or Editing](stale-mutable-state-reread-discipline.md) — the single-agent counterpart: re-reading a live-edited file matters even without a second agent involved
+- [Diff Every Multi-Paragraph Edit Before Committing It, and Fetch Before Every Push in a Shared Repo](diff-before-commit-and-preflight-fetch-in-shared-repos.md) — same multi-agent-shared-state family, this time the fix is diff/fetch discipline around commits and pushes rather than a claim-before-edit signal

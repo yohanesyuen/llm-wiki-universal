@@ -4,7 +4,7 @@ tags: [guardrails, hooks, worktree, git, automation]
 title: A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope
 sources: Session reflection, 2026-07-06
 raw: "[../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md](../../raw/lessons-learned/2026-07-06-worktree-guard-and-self-merge.md)"
-updated: 2026-07-08
+updated: 2026-08-11
 ---
 
 # A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope
@@ -34,3 +34,4 @@ Both observations are instances of the same principle: **a guard's enforcement s
 - [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](worktree-liveness-check-before-destructive-cleanup.md) — same worktree-guard subject area, from the prior day's session, covering a different gap (no cross-session liveness signal) in the same guard family
 - [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](concurrent-session-shared-file-collision.md) — same "broad statement doesn't cover a specific guarded action" pattern, this time applied to a delegated-authority statement rather than a guard override
 - [Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit](worktree-isolation-untracked-files-and-shell-hook-race.md) — same worktree-isolation guard family, this time hitting a trackedness limit rather than an override-scope limit
+- [Scope Drift in Open-Ended Debate Is Invisible From Inside the Accumulation](scope-drift-in-open-ended-debate.md) — related theme of a stated instruction (there, a stop signal) not automatically covering every following action unless explicitly re-checked

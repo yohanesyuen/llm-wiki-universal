@@ -4,7 +4,7 @@ tags: [git, worktree, concurrency, multi-agent, hooks, testing]
 title: Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check
 sources: Session reflection, 2026-07-05
 raw: "[../../raw/lessons-learned/2026-07-05-worktree-cleanup-collision.md](../../raw/lessons-learned/2026-07-05-worktree-cleanup-collision.md)"
-updated: 2026-07-08
+updated: 2026-08-11
 ---
 
 # Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check
@@ -36,3 +36,4 @@ Before wiring a new destructive-action hook into live configuration, a throwaway
 - [A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope](guard-scope-vs-verbal-override.md) — from the following day's session; a verbal override of this same worktree-isolation guard only covered a subset of the actions it gates
 - [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](concurrent-session-shared-file-collision.md) — same family of multi-agent-on-shared-state gaps, this time a config file instead of a worktree, resolved by a claim-before-edit signal instead of a liveness check
 - [Git-Based Isolation Can't Isolate What Git Doesn't Track; a Directory-Change Hook Can Silently Revert a Workaround Edit](worktree-isolation-untracked-files-and-shell-hook-race.md) — same worktree-isolation mechanism hitting a different limit: a trackedness gap during setup rather than a liveness gap during cleanup
+- [Diff Every Multi-Paragraph Edit Before Committing It, and Fetch Before Every Push in a Shared Repo](diff-before-commit-and-preflight-fetch-in-shared-repos.md) — a worktree torn down the moment it holds zero commits is the same liveness/disposability check applied at teardown time

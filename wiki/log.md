@@ -219,3 +219,14 @@ Sweep verification after the mechanical frontmatter normalisation (81 articles h
 ## [2026-08-09] ingest | [Mocked Tests Validate Logic, Not Wiring — Plus Habits From Root-Causing a Self-Inflicted Outage](lessons-learned/mocked-tests-validate-logic-not-wiring.md)
 
 ## [2026-08-09] ingest | [Green Static Checks Don't Prove the Code Ever Runs](lessons-learned/green-checks-dont-prove-it-runs.md)
+
+## [2026-08-11] ingest | [Scope Drift in Open-Ended Debate Is Invisible From Inside the Accumulation](lessons-learned/scope-drift-in-open-ended-debate.md)
+- Updated: [A Request Built on a False Premise Deserves a Correction, Not Silent Compliance or Refusal](lessons-learned/false-premise-scoping-and-diff-before-git-reconcile.md)
+- Updated: [A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope](lessons-learned/guard-scope-vs-verbal-override.md)
+
+## [2026-08-11] ingest | [Diff Every Multi-Paragraph Edit Before Committing It, and Fetch Before Every Push in a Shared Repo](lessons-learned/diff-before-commit-and-preflight-fetch-in-shared-repos.md)
+- Updated: [A Request Built on a False Premise Deserves a Correction, Not Silent Compliance or Refusal](lessons-learned/false-premise-scoping-and-diff-before-git-reconcile.md)
+- Updated: [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](lessons-learned/concurrent-session-shared-file-collision.md)
+- Updated: [Uncommitted State Is Not the Same as "In Use" — Worktree Cleanup Needs a Liveness Check](lessons-learned/worktree-liveness-check-before-destructive-cleanup.md)
+
+## [2026-08-11] ingest | [A "Source of Truth" That Only Validates Isn't One — It Generates](lessons-learned/source-of-truth-means-generation-not-validation.md)

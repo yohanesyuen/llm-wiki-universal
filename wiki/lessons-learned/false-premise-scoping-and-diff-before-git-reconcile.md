@@ -4,7 +4,7 @@ tags: [scoping, self-critique, git, concurrent-editing]
 title: A Request Built on a False Premise Deserves a Correction, Not Silent Compliance or Refusal
 sources: Session reflection, 2026-07-18
 raw: "[../../raw/lessons-learned/2026-07-18-evidence-based-scoping-and-concurrent-git-conflicts.md](../../raw/lessons-learned/2026-07-18-evidence-based-scoping-and-concurrent-git-conflicts.md)"
-updated: 2026-07-19
+updated: 2026-08-11
 ---
 
 # A Request Built on a False Premise Deserves a Correction, Not Silent Compliance or Refusal
@@ -31,3 +31,5 @@ When a routine push is rejected as non-fast-forward because a concurrent session
 
 - [A Guard's Enforcement Scope Doesn't Automatically Match an Override's Conversational Scope](guard-scope-vs-verbal-override.md) — related theme of verifying assumed state rather than trusting a conversational shortcut
 - [A Shared-File Collision Between Concurrent Agents Is a Protocol Gap, Not a Latency Gap](concurrent-session-shared-file-collision.md) — sibling concurrent-editing lesson from a related project window
+- [Scope Drift in Open-Ended Debate Is Invisible From Inside the Accumulation](scope-drift-in-open-ended-debate.md) — same "provisional, verify before asserting" discipline applied to scope-drift self-checks
+- [Diff Every Multi-Paragraph Edit Before Committing It, and Fetch Before Every Push in a Shared Repo](diff-before-commit-and-preflight-fetch-in-shared-repos.md) — companion diff discipline: diffing a rejected push's two sides here, diffing before commit/push there

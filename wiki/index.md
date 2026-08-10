@@ -4,7 +4,7 @@
 
 Session retrospectives compiled into reusable process insights.
 
-See the [full index](lessons-learned/index.md) (66 articles).
+See the [full index](lessons-learned/index.md) (69 articles).
 
 ## knowledge-formats
 
